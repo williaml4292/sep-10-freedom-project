@@ -16,9 +16,9 @@ I am currently in the first stage of the engineering design process, which is to
 Some skills that I have learned when working on this blog and researching topics are **How to Google** and **How to read.**
 
 ### How to Google  
-When I search up **_How technology changes finance_**, it simply takes too much time to do. During class, I learned how to google faster, without typing an entire sentence into the searchbar, instead, I can just search **_technology + finance_**. Although it might only save a few seconds, during my entire life, I definitely would at least save hours, maybe even days when I don't have to type an entire sentence out in the searchbar.
+When I search up: **_How technology changes finance_**, it simply takes too much time to do. During class, I learned how to google faster, without typing an entire sentence into the searchbar, instead, I can just search: **_technology + finance_**. Although it might only save a few seconds, during my entire life, I definitely would at least save hours, maybe even days when I don't have to type an entire sentence out in the searchbar.
 ### How to read
-During my time reading articles to find topics for the _freedom project_, it was very annoying to find sections in the article that actually talked about the different technologies used in finance. However, I suddenly remembered a feature that I used in google docs before, _ctrl + f_. I tried it in a article, and it worked, I was able to read key points in the article much faster.
+During my time reading articles to find topics for the _freedom project_, it was very annoying to find sections in the article that actually talked about the different technologies used in finance. However, I suddenly remembered a feature that I used in _google docs_ before, _ctrl + f_. I tried it in a article, and it worked, I was able to read key points in the article much faster than when I was just scrolling through the article, reading everything inside.
 
 [Next](entry02.md)
 
