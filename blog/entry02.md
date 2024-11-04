@@ -11,7 +11,7 @@ These include:
 * Tableau
 * SAP
 However, I probably will not include these on my website, as although **tools** are extremely similar to **software**, they are, in the end, not the same. 
-My third search was **What apps are used in Finance? .edu**. In this search, I managed to find [this website](https://post.edu/blog/10-best-budgeting-apps-for-college-students/]),
+My third search was **What apps are used in Finance? .edu**. In this search, I managed to find [this website](https://post.edu/blog/10-best-budgeting-apps-for-college-students/),
 
 
 [Previous](entry01.md) | [Next](entry03.md)
