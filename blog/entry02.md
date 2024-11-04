@@ -1,7 +1,18 @@
 # Entry 2
-##### X/X/XX
+##### 11/4/24
 
-Text
+### Software and Hardware in Finance
+When I first started trying to find software and hardware used in finance, I had difficulty finding software, as most of the time, I really didn't want to include the information I found into my future website.  
+My first google search was: **Finance + Software**, however it led to sites with _advertisements_ all over them, so I skipped them.  
+My second search was: **What software is used in Finance? .edu**. This search actually led to [a website](https://online.sbu.edu/news/finance-tools) that contained many different tools that are used in Finance.   
+These include:
+* Microsoft Excel
+* Bloomberg Terminal
+* Tableau
+* SAP
+However, I probably will not include these on my website, as although **tools** are extremely similar to **software**, they are, in the end, not the same. 
+My third search was **What apps are used in Finance? .edu**. In this search, I managed to find [this website](https://post.edu/blog/10-best-budgeting-apps-for-college-students/]),
+
 
 [Previous](entry01.md) | [Next](entry03.md)
 
