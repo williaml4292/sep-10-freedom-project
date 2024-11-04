@@ -1,4 +1,4 @@
-# Entry 2
+# Finding Software and Hardware used in Finance
 ##### 11/4/24
 
 ### Software and Hardware in Finance
@@ -10,8 +10,28 @@ These include:
 * Bloomberg Terminal
 * Tableau
 * SAP
-However, I probably will not include these on my website, as although **tools** are extremely similar to **software**, they are, in the end, not the same. 
-My third search was **What apps are used in Finance? .edu**. In this search, I managed to find [this website](https://post.edu/blog/10-best-budgeting-apps-for-college-students/),
+However, I probably will not include these on my website, as although **tools** are extremely similar to **software**, they are, in the end, not the same.  
+My third search was: **What apps are used in Finance? .edu**. In this search, I managed to find [this website](https://post.edu/blog/10-best-budgeting-apps-for-college-students/), which
+contained many different budgetting apps such as:
+* Mint
+* Wally
+* Personal Capital
+* EveryDollar
+* Albert
+* Dollarbird
+* Goodbudget
+* Simple
+* PocketGuard
+* Chip
+This search also led me to a second [website](https://researchguides.austincc.edu/c.php?g=327686&p=5246378) with even more budgetting apps:
+* Goodbudget
+* Mvelopes
+* Pocket Expense Personal Finance
+* Expensify
+  
+After finding all the **software** I needed to build my website, I started trying to find **hardware**.
+My first google search was: **Hardware used in Finance**, which led to [this website](https://www.tradefinanceglobal.com/finance-products/technology-finance-hardware-software/), which contained a lot of hardware
+that people in finance might use.
 
 
 [Previous](entry01.md) | [Next](entry03.md)
