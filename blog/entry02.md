@@ -24,14 +24,23 @@ contained many different budgetting apps such as:
 * PocketGuard
 * Chip
 This search also led me to a second [website](https://researchguides.austincc.edu/c.php?g=327686&p=5246378) with even more budgetting apps:
-* Goodbudget
 * Mvelopes
 * Pocket Expense Personal Finance
 * Expensify
   
 After finding all the **software** I needed to build my website, I started trying to find **hardware**.
-My first google search was: **Hardware used in Finance**, which led to [this website](https://www.tradefinanceglobal.com/finance-products/technology-finance-hardware-software/), which contained a lot of hardware
-that people in finance might use.
+My first google search was: **Hardware used in Finance**, which led to [this website](https://www.tradefinanceglobal.com/finance-products/technology-finance-hardware-software/), which contained a lot of hardware that people in finance might use:
+* VOIP terminals
+* Routers
+* UPS
+* Delivery
+* LCD displays
+* Epos
+* Signage
+* Interactive boards
+
+### Engineering Design Process (EDP)
+
 
 
 [Previous](entry01.md) | [Next](entry03.md)
