@@ -42,6 +42,8 @@ My first google search was: **Hardware used in Finance**, which led to [this web
 ### Engineering Design Process (EDP)
 I am currently in the second step of the EDP, which is to _research the problem_. At first, I started off with learning about personal budgetting apps and software, then I started researching more about the different hardware used in finance. I hope that more people would be able to use personal budgetting apps to manage their money and to avoid going into debt or wasting money. The next step would be to brainstorm possible solutions for my problem. I plan to look into the budgetting apps I found more closely and to recommend a few on my website.
 
+### Skills
+Some skills that I have developed since the previous blog include: **debugging** and having a **growth mindset**.
 
 [Previous](entry01.md) | [Next](entry03.md)
 
