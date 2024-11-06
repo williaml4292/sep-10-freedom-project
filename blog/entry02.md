@@ -1,4 +1,4 @@
-# Finding Software and Hardware used in Finance
+# Entry 2: Finding Software and Hardware used in Finance
 ##### 11/4/24
 
 ### Software and Hardware in Finance
