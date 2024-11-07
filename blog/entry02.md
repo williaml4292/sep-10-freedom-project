@@ -46,6 +46,7 @@ I am currently in the second step of the EDP, which is to _research the problem_
 ### Skills
 Some skills that I have developed since the previous blog include: **debugging** and having a **growth mindset**.
 #### Debugging
+A skill that I have learned is debugging.
 
 
 
