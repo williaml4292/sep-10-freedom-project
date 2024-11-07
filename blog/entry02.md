@@ -46,7 +46,7 @@ I am currently in the second step of the EDP, which is to _research the problem_
 ### Skills
 Some skills that I have developed since the previous blog include: **debugging** and having a **growth mindset**.
 #### Debugging
-A skill that I have learned is debugging.
+A skill that I have learned is **debugging**. When I was learning the uses of `padding` and `margin`, as stated in my _CSS writeup_, I had to tinker in [jsbin](https://jsbin.com/?html,output) to find out what they did.
 
 
 
