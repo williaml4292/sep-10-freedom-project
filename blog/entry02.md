@@ -48,7 +48,7 @@ Some skills that I have developed since the previous blog include: **debugging**
 #### Debugging
 A skill that I have learned is **debugging**. When I was learning the uses of `padding` and `margin`, as stated in my _CSS writeup_, I had to tinker in [jsbin](https://jsbin.com/?html,output) to find out what they did. This was also the first time that I tinkered with code outside of [free code camp](https://www.freecodecamp.org/). Before this, all I did was writing down what I learned in my notes, which was good enough when the code was straightforward and had nothing that could be changed outside of basic properties like color and size. However, as `padding` and `margin` were extremely similar, it was hard to accurately use them efficiently without tinking with them first.
 
-A second skill that I have learned is having a growth mindset. As stated previously, when I was learning `padding` and `margin`, I tinkered in [jsbin](https://jsbin.com/?html,output), however my first conclusion was wrong. It was only after a casual demo in class when I figured out that my conclusion wasn't correct. Afterwards, when I went home, I decided to tinker with `padding` and `margin` even more in [jsbin](https://jsbin.com/?html,output) and wrote a second conclusion.
+A second skill that I have learned is having a **growth mindse**t. As stated previously, when I was learning `padding` and `margin`, I tinkered in [jsbin](https://jsbin.com/?html,output), however my first conclusion was wrong. It was only after a casual demo in class when I figured out that my conclusion wasn't correct. Afterwards, when I went home, I decided to tinker with `padding` and `margin` even more in [jsbin](https://jsbin.com/?html,output) and wrote a second conclusion.
 
 
 
