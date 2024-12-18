@@ -1,5 +1,5 @@
-# Entry 3
-##### X/X/XX
+# Entry 3: Future inventions in the Financial Field
+##### 12/18/24
 
 Text
 
