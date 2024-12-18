@@ -18,6 +18,7 @@ These include:
   * Allows you to teleport packages to companies from anywhere in the world.
 After I finished brainstorming all these inventions, I began to finalize my website.
 To start off, I needed to figure out what I was _lacking_ in my **content**. In order to figure this out, I went back to a **graded** _Part A_ assignment, where it became very clear to me that the applications and hardware that I found in _Part A_ had **absolutely no details** whatsoever. To fix this, I spent the next 3 and a half hours on [the site that I found all my apps](https://post.edu/blog/10-best-budgeting-apps-for-college-students/) and [the site that I got all my hardware from](https://www.tradefinanceglobal.com/finance-products/technology-finance-hardware-software/).
+
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
