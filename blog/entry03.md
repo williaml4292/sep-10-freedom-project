@@ -2,10 +2,10 @@
 ##### 12/18/24
 
 ### Part B: Potential future inventions
-When I was first working on _Part B_, I was mainly thinking of **artificial intelligence**, as it's probably the easiest way to incoporate the word, _future_, with _inventions_, as it's just **adding** _artificial intelligence_ to **already existing** things.  
+When I was first working on _Part B_, I was mainly thinking of **artificial intelligence**, as it's probably the easiest way to incorporate the word, _future_, with _inventions_, as it's just **adding** _artificial intelligence_ to **already existing** things.  
 Here's what I came up with:
 * _The Financial Phone_
-  * Basicially, it's a normal phone, but with a chip built into it that uses artificial intelligence to track and budget your money.
+  * Basically, it's a normal phone, but with a chip built into it that uses artificial intelligence to track and budget your money.
 * _The Finance Limiter Drone_
   * Questions teenagers on whether or not they really want to purchase a specific item and tells them why they shouldn't.
   * Allows parents to manage how much money their children can spend and if they are allowed to purchase an item.
@@ -26,10 +26,12 @@ I am currently in the **third** step of the Engineering Design Process, which is
 ### Skills
 Some skills that I have developed since the previous blog are **consideration** and **creativity**.
 #### Consideration
-A skill that I have learned is having **consideration**. When I was brainstorming possible solutions to my problem, I came up with solutions that would be good for teenagers. However, before these I even managed to come up with these specific solutions, I thought about an invention that allows parents to outright lock purchases for their children. However, I decided against it as, what if the teenager gets upset after suddenly discovering that their parents disabled their ability to purchase items? That would lead to the parent and child relationship suddenly turning for the worse. Ultimately, I decided to let go of this idea and instead, I replcaced it with _The Financial Limiter Drone_, which, although it did something similar to my first idea, it provided reasons on **why** they shouldn't purchase a item. 
+A skill that I have learned is having **consideration**. When I was brainstorming possible solutions to my problem, I came up with solutions that would be good for teenagers. However, before I even managed to come up with these specific solutions, I thought about an invention that allows parents to outright lock purchases for their children. However, I decided against it as, what if the teenager gets upset after suddenly discovering that their parents disabled their ability to purchase items? That would lead to the parent and child relationship suddenly turning for the worse. Ultimately, I decided to let go of this idea and instead, I replaced it with _The Financial Limiter Drone_, which, although it did something similar to my first idea, it provided reasons on **why** they shouldn't purchase an item. 
 #### Creativity.
 Another skill that I developed since the previous entry was **creativity**. Before _Part B_, I didn't have to be _innovative_, instead, I just had to find already existing ideas and inventions on the internet. However, when I moved onto _Part B_, I had to start thinking of ideas **on my own**, as future inventions are, as the name suggests, in the future and don't already exist. I managed to come up with four different potential future inventions that don't already exist. Those were _The Financial Phone_, _The Financial Limiter Drone_, a financial DNA modification, and the teleportation of delivery packages.
 
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
+
+
