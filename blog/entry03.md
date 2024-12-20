@@ -24,6 +24,7 @@ To add the new information that I collected into my **content**, I added 1-3 bul
 ### Engineering Design Process (EDP)
 I am currently in the **third** step of the Engineering Design Process, which is to _brainstorm possible solutions_ to my problem. I came up with 4 different possible solutions to my problem, two of them involving artificial intelligence, while the other two do not. These were _The Financial Phone_, _The Financial Limiter Drone_, a financial DNA modification, and the teleportation of delivery packages as mentioned previously. The next step would be finding out which one of these solutions would be the most effective and most plausible to do. I plan to decide between the drone and the phone because the other two simply do not seem possible with our current technology.
 ### Skills
+Some skills that I have developed since the previous blog are **consideration** and **creativity**.
 
 [Previous](entry02.md) | [Next](entry04.md)
 
