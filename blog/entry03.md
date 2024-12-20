@@ -26,7 +26,7 @@ I am currently in the **third** step of the Engineering Design Process, which is
 ### Skills
 Some skills that I have developed since the previous blog are **consideration** and **creativity**.
 #### Consideration
-
+A skill that I have learned is having **consideration**. 
 
 [Previous](entry02.md) | [Next](entry04.md)
 
