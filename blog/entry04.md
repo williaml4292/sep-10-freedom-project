@@ -13,7 +13,7 @@ commands in Jekyll were `jekyll new PATH` and `jekyll s`.
 * `jekyll s`
   * Basically `http-server` but for Jekyll.
 #### How I tinkered with Jekyll:
-placeholder
+
 [Previous](entry03.md) | [Next](entry05.md)
 
 [Home](../README.md)
