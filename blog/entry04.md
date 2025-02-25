@@ -1,7 +1,7 @@
 # Entry 4
 ##### 2/25/25
 
-Text
+## Freedom Project Tool
 
 [Previous](entry03.md) | [Next](entry05.md)
 
