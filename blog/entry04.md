@@ -16,5 +16,5 @@ commands in Jekyll were `jekyll new PATH` and `jekyll s`.
 ![image1](../images/jekyll-first-post.png)
 ![image2](../images/First-jekyll-screenshot.png)
 
-[Previous](entry03.md) | [Next](entry05.md)
+[Previous](entry03.md) | [Next](entry05.md)  
 [Home](../README.md)
