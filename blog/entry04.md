@@ -11,8 +11,8 @@ commands in Jekyll were `jekyll new PATH` and `jekyll s`.
   * This creates a new directory with all the **default files needed to use Jekyll.**
   * `PATH` is the _name._
 * `jekyll s`
-  * Basically `http-server` but for Jekyll:
-#### How I tinkered with Jekyll.
+  * Basically `http-server` but for Jekyll.
+#### How I tinkered with Jekyll:
 
 [Previous](entry03.md) | [Next](entry05.md)
 
