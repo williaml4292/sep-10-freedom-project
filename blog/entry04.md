@@ -13,7 +13,7 @@ commands in Jekyll were `jekyll new PATH` and `jekyll s`.
 * `jekyll s`
   * Basically `http-server` but for Jekyll.
 #### How I tinkered with Jekyll:
-![](jekyll-first-post.png)
-![](First-jekyll-screenshot.png)
+![image1](../images/jekyll-first-post.png)
+![image2](../images/First-jekyll-screenshot.png)
 
 [Home](../README.md)
