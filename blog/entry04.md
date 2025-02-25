@@ -13,7 +13,9 @@ commands in Jekyll were `jekyll new PATH` and `jekyll s`.
 * `jekyll s`
   * Basically `http-server` but for Jekyll.
 #### How I tinkered with Jekyll:
+![First-jekyll screenshot](https://github.com/user-attachments/assets/454924ed-d3ba-4e61-b433-c7f20d238f91)
 
-[Previous](entry03.md) | [Next](entry05.md)
+
+![jekyll-first-post](https://github.com/user-attachments/assets/8df26535-28f9-4ceb-a40a-43fa9ff8cdb6)
 
 [Home](../README.md)
