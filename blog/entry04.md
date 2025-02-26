@@ -41,6 +41,7 @@ In order to make my first post, I followed this **format**:
 ![image1](../images/jekyll-first-post.png)  
 This was the result of everything I changed:  
 ![image2](../images/First-jekyll-screenshot.png)
+### Skills
 
 
 
