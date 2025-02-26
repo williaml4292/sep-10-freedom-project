@@ -17,6 +17,7 @@ When I first started tinkering with Jekyll, I had already used  `jekyll s` and g
 This was the result of everything I changed:
 ![image2](../images/First-jekyll-screenshot.png)
 In order to make my second post, 
+
 ![image1](../images/jekyll-first-post.png)
 
 
