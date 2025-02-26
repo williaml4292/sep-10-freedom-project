@@ -13,8 +13,11 @@ commands in Jekyll were `jekyll new PATH` and `jekyll s`.
 * `jekyll s`
   * Basically `http-server` but for Jekyll.
 #### How I tinkered with Jekyll:
-![image1](../images/jekyll-first-post.png)
+When I first started tinkering with Jekyll, I had already used  `jekyll s` and got a `_site` folder. However, at the time I didn't realize that everything in this folder **wouldn't save**, so I tried to change the default title and description. The result was that everything I _reloaded the preview_, nothing changed. I had to search it up online when I found [this question posted on a site](https://stackoverflow.com/questions/45090500/jekyll-assets-get-deleted). This was when I realized that **everything** in `_site` would be **deleted** when the page is _refreshed_ and _nothing saves_ in it. In order for the title and description to _save_, I had to edit in `_config.yml`.   
+This was the result of what I changed:
 ![image2](../images/First-jekyll-screenshot.png)
+![image1](../images/jekyll-first-post.png)
+
 
 [Previous](entry03.md) | [Next](entry05.md)  
 [Home](../README.md)
