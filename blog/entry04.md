@@ -50,7 +50,7 @@ Developing the skill of _learning on my own_ is a given, especially when we were
 Afterwards, I searched online for a [article showcasing how to actually use Jekyll](https://kinsta.com/blog/jekyll-static-site/). 
 This was where I found out how to **make** a directory that uses Jekyll and how to **preview** my website. Furthermore, I also learned more **general information** about Jekyll, such as `font-matter` and `themes`.
 #### Time Management
-
+Mr. Mueller had us work on this blog _right after making the final decision_ on what tool we were going to use for the _Freedom Project_. Therefore, I had to **manage my time** wisely; I had to **pick** what I was going to tinker with and **decide** which ones to do _after this blog_. In the end, I decided to **not** learn about how to use `font-matter`. I made this decision after realizing that `font-matter` is probably the most important aspect of Jekyll. This is the case because it allows you to _give posts_ a certain **variable.** These can include: **titles**, **layouts**, **dates**, **tags**, and **custom** made varibles. Furthermore, I **haven't** actually learned how to _use variables_ yet.
 
 [Previous](entry03.md) | [Next](entry05.md)  
 [Home](../README.md)
