@@ -42,7 +42,14 @@ In order to make my first post, I followed this **format**:
 This was the result of everything I changed:  
 ![image2](../images/First-jekyll-screenshot.png)
 ### Skills
+Two skills that I have developed when working on this blog are **learn on your own** and **time management**.
 
+#### Learn On Your Own
+Developing the skill of _learning on my own_ is a given, especially when we were **only given a set of resources**, and the rest had to be found by **ourselves**. The first part of learning on my own was collecting _general information_ about my tool, Jekyll. In order to do this, I first went to the [offical Jekyll page](https://jekyllrb.com/) and copied down most of the _commands_ found there. 
+
+Afterwards, I searched online for a [article showcasing how to actually use Jekyll](https://kinsta.com/blog/jekyll-static-site/). 
+This was where I found out how to **make** a directory that uses Jekyll and how to **preview** my website. Furthermore, I also learned more **general information** about Jekyll, such as `font-matter` and `themes`.
+#### Time Management
 
 
 [Previous](entry03.md) | [Next](entry05.md)  
