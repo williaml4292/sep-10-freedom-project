@@ -19,7 +19,7 @@ For example, in `_site`, when I tried to change from this:
  <h2 class="footer-heading"> Your awesome title</h2>
 <li class="p-name"> Your awesome title</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
 <p>
-Write an awesome description for your new site here. You caan edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </p>
 ```
 to this:
@@ -45,12 +45,14 @@ This was the result of everything I changed:
 Two skills that I have developed when working on this blog are **learn on your own** and **time management**.
 
 #### Learn On Your Own
-Developing the skill of _learning on my own_ is a given, especially when we were **only given a set of resources**, and the rest had to be found by **ourselves**. The first part of learning on my own was collecting _general information_ about my tool, Jekyll. In order to do this, I first went to the [offical Jekyll page](https://jekyllrb.com/) and copied down most of the _commands_ found there. 
+Developing the skill of _learning on my own_ is a given, especially when we were **only given a set of resources**, and the rest had to be found by **ourselves**. The first part of learning on my own was collecting _general information_ about my tool, Jekyll. In order to do this, I first went to the [official Jekyll page](https://jekyllrb.com/) and copied down most of the _commands_ found there. 
 
 Afterwards, I searched online for a [article showcasing how to actually use Jekyll](https://kinsta.com/blog/jekyll-static-site/). 
 This was where I found out how to **make** a directory that uses Jekyll and how to **preview** my website. Furthermore, I also learned more **general information** about Jekyll, such as `font-matter` and `themes`.
 #### Time Management
-Mr. Mueller had us work on this blog _right after making the final decision_ on what tool we were going to use for the _Freedom Project_. Therefore, I had to **manage my time** wisely; I had to **pick** what I was going to tinker with and **decide** which ones to do _after this blog_. In the end, I decided to **not** learn about how to use `font-matter`. I made this decision after realizing that `font-matter` is probably the most important aspect of Jekyll. This is the case because it allows you to _give posts_ a certain **variable.** These can include: **titles**, **layouts**, **dates**, **tags**, and **custom** made varibles. Furthermore, I **haven't** actually learned how to _use variables_ yet.
+Mr. Mueller had us work on this blog _right after making the final decision_ on what tool we were going to use for the _Freedom Project_. Therefore, I had to **manage my time** wisely; I had to **pick** what I was going to tinker with and **decide** which ones to do _after this blog_. In the end, I decided to **not** learn about how to use `font-matter`. I made this decision after realizing that `font-matter` is probably the most important aspect of Jekyll. This is the case because it allows you to _give posts_ a certain **variable.** These can include: **titles**, **layouts**, **dates**, **tags**, and **custom** made variables. Furthermore, I **haven't** actually learned how to _use variables_ yet.
 
 [Previous](entry03.md) | [Next](entry05.md)  
 [Home](../README.md)
+
+
