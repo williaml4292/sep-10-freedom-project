@@ -20,8 +20,32 @@
 * Layouts are especially useful many files need the same exact html. (nav bar, footers, headers, etc)
 * Next steps: Making a separate nav bar at the side and (maybe) adding SEP notes into Jekyll.
  * Should also learn how to make the local repository into remote.
-###
-*
+### 3/5/25
+Uses `<nav>`
+* Layout nav bar:
+``` HTML
+<nav>
+<ul>
+<li> <a href=”/about/” > About </a>
+</ul>
+ </nav>
+ ```
+Inside of a post- file: permalink: /about/
+
+`nav ul` { Inside of the ul inside the nav will have:
+
+}
+`nav ul li`{ Inside of the li inside of the ul inside of the ul will have:
+}
+
+``` CSS
+nav ul li a:hover {    When you hover over <a> inside of li...
+text-decoration: underline;
+color:cyan;
+}
+```
+home is `/` (for permalinks)
+
 ###
 *
 ###
