@@ -47,6 +47,10 @@ color:cyan;
 ```
 home is `/` (for permalinks)
 
+* `{% include head-bootstrap.html %}`
+ * Inside of your _includes folder, it includes everything inside of head-bootstrap.html
+  * Liquid tag
+* You can use bootstrap with Jekyll
 ###
 *
 ###
