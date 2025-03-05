@@ -22,6 +22,7 @@
  * Should also learn how to make the local repository into remote.
 ### 3/5/25
 Uses `<nav>`
+* https://www.youtube.com/watch?v=6h8-uPadFug
 * Layout nav bar:
 ``` HTML
 <nav>
