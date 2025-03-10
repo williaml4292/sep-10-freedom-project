@@ -53,7 +53,11 @@ home is `/` (for permalinks)
 * You can use bootstrap with Jekyll
 ### 3/10/25
 * JEKYLL DOESN'T WORK!!!
- * How do I learn.
+#### 3/10/25 (Afternoon)
+* I managed to fix the error that kept popping up when I used Jekyll commands.
+ * I worked on debugging my dropdowns and further testing in layouts/includes folder.
+* What I found was that files in _includes are written in the exact spot where you put them in. For example, if you put `{% include bootstrap-required.html %}` in the `<head>`, it will only appear there. Even if you had a separate section in the `includes` file, `<body>`, it wouldn't work, everything would be registered as inside of `<head>`. This way, you need both a `bootstrap-head-required.html` and a `bootstrap-body-required.html`.
+* However, curiously, if you have a layout, you only need one of them to have the correct `includes` file, the rest do not need them. (If you properly link layouts together)
 ###
 *
 
