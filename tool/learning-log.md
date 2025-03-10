@@ -51,8 +51,9 @@ home is `/` (for permalinks)
  * Inside of your _includes folder, it includes everything inside of head-bootstrap.html
   * Liquid tag
 * You can use bootstrap with Jekyll
-###
-*
+### 3/10/25
+* JEKYLL DOESN'T WORK!!!
+ * How do I learn.
 ###
 *
 
