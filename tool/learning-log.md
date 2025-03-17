@@ -59,8 +59,14 @@ home is `/` (for permalinks)
 * What I found was that files in _includes are written in the exact spot where you put them in. For example, if you put `{% include bootstrap-required.html %}` in the `<head>`, it will only appear there. Even if you had a separate section in the `includes` file, `<body>`, it wouldn't work, everything would be registered as inside of `<head>`. This way, you need both a `bootstrap-head-required.html` and a `bootstrap-body-required.html`.
 * However, curiously, if you have a layout, you only need one of them to have the correct `includes` file, the rest do not need them. (If you properly link layouts together)
 
-### 
-*
+#### 3/17/25
+* Categories are for structuring blog posts.
+* There doesn't seem to be anything for making presets for categories.
+* Categories probably just bring all the posts under a certain category together.
+Example: food > informative > personal-information > something-else.
+* Summary: Just give the same category to each post that are under a certain label; example: informational; css; html; javascript, etc.
+* Inside of `font-matter`.
+####
 
 <!--
 * Links you used today (websites, videos, etc)
