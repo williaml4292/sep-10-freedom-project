@@ -69,10 +69,12 @@ Example: food > informative > personal-information > something-else.
 #### 3/18/25
 * THEMES
  * Themes are basically templates made by the jekyll community.
-* If you want to use a theme, you can just fork a theme's repository.
+* If you want to use a theme, you can just fork a theme's repository and use `bundle install`.
  * I forked the chirpy theme and changed a few lines of text.
 * Pretty sure you can also use `config.yml` to install a theme.
-* Also used the `Lanyon` theme.
+* Also tried using the `Lanyon` theme; but it didn't work.
+ * It uses a variation of jekyll, specifically a bootstrap one.
+  * Doesn't have a gemfile, so you can't just do `bundle install`.
 
 <!--
 * Links you used today (websites, videos, etc)
