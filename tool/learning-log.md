@@ -72,6 +72,7 @@ Example: food > informative > personal-information > something-else.
 * If you want to use a theme, you can just fork a theme's repository.
  * I forked the chirpy theme and changed a few lines of text.
 * Pretty sure you can also use `config.yml` to install a theme.
+* Also used the `Lanyon` theme.
 
 <!--
 * Links you used today (websites, videos, etc)
