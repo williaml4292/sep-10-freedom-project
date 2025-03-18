@@ -66,7 +66,12 @@ home is `/` (for permalinks)
 Example: food > informative > personal-information > something-else.
 * Summary: Just give the same category to each post that are under a certain label; example: informational; css; html; javascript, etc.
 * Inside of `font-matter`.
-####
+#### 3/18/25
+* THEMES
+ * Themes are basically templates made by the jekyll community.
+* If you want to use a theme, you can just fork a theme's repository.
+ * I forked the chirpy theme and changed a few lines of text.
+* Pretty sure you can also use `config.yml` to install a theme.
 
 <!--
 * Links you used today (websites, videos, etc)
