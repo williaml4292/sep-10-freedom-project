@@ -17,13 +17,13 @@
   * {% include_relative somedir/footer.html %} Includes content from a file relative to the current file.
    * Does not work with ../
  * https://github.com/brianmueller/cssi-curriculum is not a tutorial for Jekyll (Spent half the period going through this)
-* Layouts are especially useful many files need the same exact html. (nav bar, footers, headers, etc)
+* Layouts are especially useful as many files need the same exact html. (nav bar, footers, headers, etc)
 * Next steps: Making a separate nav bar at the side and (maybe) adding SEP notes into Jekyll.
- * Should also learn how to make the local repository into remote.
+ * Should also learn how to make the local repository remote.
 ### 3/5/25
 Uses `<nav>`
 * https://www.youtube.com/watch?v=6h8-uPadFug
-* Layout nav bar:
+* Layout navbar:
 ``` HTML
 <nav>
 <ul>
@@ -64,7 +64,7 @@ home is `/` (for permalinks)
 * There doesn't seem to be anything for making presets for categories.
 * Categories probably just bring all the posts under a certain category together.
 Example: food > informative > personal-information > something-else.
-* Summary: Just give the same category to each post that are under a certain label; example: informational; css; html; javascript, etc.
+* Summary: Just give the same category to each post that is under a certain label; example: informational; css; html; javascript, etc.
 * Inside of `font-matter`.
 #### 3/18/25
 * THEMES
@@ -83,3 +83,6 @@ Example: food > informative > personal-information > something-else.
 * Questions you still have
 * What you're going to try next
 -->
+
+
+
