@@ -143,6 +143,9 @@ Also works with tags.
 * Hyphens
 * `{- tag -}` `{{%- variable -}}`
  * Deletes all empty whitespace.
+ Fillers and tags that are specifically made for Jekyll.
+* [Jekyll fillers](https://jekyllrb.com/docs/liquid/filters/)
+* [Jekyll tags](https://jekyllrb.com/docs/liquid/tags/)
  <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
