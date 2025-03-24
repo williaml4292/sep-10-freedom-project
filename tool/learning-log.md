@@ -174,6 +174,7 @@ Also works with tags.
 * `| round: 2` Rounds the value of a number to the specified amount of decimal places.
 * `| reverse` Reverses the order of items listed in a string.
 * `| join: " and "` Adds a " and " between each item.
+* `| concat: variable` Basically the `CC` in a email. ("Also add this array in the output.")
 
  <!--
 * Links you used today (websites, videos, etc)
