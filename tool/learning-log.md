@@ -155,9 +155,10 @@ Also works with tags.
 * `| at_most: 5` Sets a maximum value for a number.
 * `| ceil` Rounds a number to the nearest whole number.
 * `| date: "%a, %b %d, %y"` Converts a date to another format. (Fri, Jul 17, 15) [Does not need to have all the %variables]
+* `| default: true, allow_false: true` Shows the default value if the variable has no assigned value.
+ * `allow_false` makes it so that the variable can be false instead of using the default value.
+* `| divided_by: 3` Divdes a number by another (rounds down)
 * `| 
-* `|
-* `|
 * `|
 * `|
 
