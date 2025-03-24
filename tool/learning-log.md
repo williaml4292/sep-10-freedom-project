@@ -138,6 +138,11 @@ Also works with tags.
   This product has been tagged with "Hello".
 {% endif %}
 ```
+* If tags are not defined with a boolean operator, the string will always appear.
+
+* Hyphens
+* `{- tag -}` `{{%- variable -}}`
+ * Deletes all empty whitespace.
  <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
