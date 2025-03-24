@@ -173,7 +173,7 @@ Also works with tags.
 * `| size` Shows the number of items in a string.
 * `| round: 2` Rounds the value of a number to the specified amount of decimal places.
 * `| reverse` Reverses the order of items listed in a string.
-* `| 
+* `| join: " and "` Adds a " and " between each item.
 
  <!--
 * Links you used today (websites, videos, etc)
