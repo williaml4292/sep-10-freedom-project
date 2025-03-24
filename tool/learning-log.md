@@ -75,8 +75,70 @@ Example: food > informative > personal-information > something-else.
 * Also tried using the `Lanyon` theme; but it didn't work.
  * It uses a variation of jekyll, specifically a bootstrap one.
   * Doesn't have a gemfile, so you can't just do `bundle install`.
+#### 3/24/25
+* LIQUID
+ * Jekyll uses liquid for templating, so I'm going to try to learn how to use liquid. (basic understanding)
+* [Introduction](https://shopify.github.io/liquid/basics/introduction/)
+* [Tutorial](https://liquidjs.com/tutorials/intro-to-liquid.html)
+* Outputs: Output **variables** that can be changed via fillers, into html.
+* Liquid tags are wrapped in `{{} OBJECTS-&-Variables }}` (or) `{% tags %}`
+ * Objects are what is displayed on the page.
+ * Tags are logic and control flow in templates (does not appear on webpage)
+  * Assign variables and make `if` `else` statements.
+* `{{ username | append: ", welcome to LiquidJS!" }}`
+ * **Username** is the variable
+ * **Append** is adding something (a string) after the variable
+  * You can have **multiple** fillers for a single tag.
+   * | (vertical bar) is always _before_ a filler.
+    * Strings are probably _text that comes after the variable._
+* **Assign**: Defines a variable that can be used later on.
+* `{% assign foo = "FOO" %}` (example)
+ * Similar to sprites in javascript.
+``` javascript
+{% if foo == "FOO" %}
+    Variable `foo` equals "FOO"
+{% else %}
+    Variable `foo` not equals "FOO"
+{% endif %}
+```
+ * Basically `if` `else` statements in javascript.
+* The string after each **}** is text that appears if the condition is true.
+  * `else` runs if "if" is false.
+   * `{% endif %}` ends the `if` `else` statement.
+* `if` runs only if a statement is true.
+* `unless` runs only if a statement is **not** true. (in place of `if` in `if` `else` statements)
+ * `{% endunless %}
 
-<!--
+ * Operators
+
+ ``` javascript
+ ==	equals
+!=	does not equal
+>	greater than
+<	less than
+>=	greater than or equal to
+<=	less than or equal to
+or	logical or
+and	logical and
+```
+ * These are self-explanatory.
+  * They are for `if` `else` statements.
+* `contains`
+ * Checks for the presence of a substring inside another.
+* Example:
+``` Javascript
+ {% if product.title contains "Pack" %}
+  This product's title contains the word Pack.
+{% endif %}
+```
+ * The product.title has the word "Pack", so the string appears.
+Also works with tags.
+``` Javascript
+{% if product.tags contains "Hello" %}
+  This product has been tagged with "Hello".
+{% endif %}
+```
+ <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
 * Challenges, a-ha moments, etc
