@@ -158,13 +158,13 @@ Also works with tags.
 * `| default: true, allow_false: true` Shows the default value if the variable has no assigned value.
  * `allow_false` makes it so that the variable can be false instead of using the default value.
 * `| divided_by: 3` Divdes a number by another (rounds down) Integer > Integer, Float > Float
-* `| times 1.0` Multiples the value of a variable by 1.0, so that it can give a value with decimals (decimal)
+* `| times 1.0` Times a number by another. (Also allows a integer to become a float.)
 * `| downcase` Makes the entire string lowercase.
 * `| escape` Escapes a string by replacing characters with escape sequences (so that the string can be used in a URL, for example) [Doesn't really need to be used]
-* `| 
-* `|
-* `|
-* `|
+* `| upcase` Makes all letters uppercase.
+* `| uniq` Removes all items in a string that are repeated.
+* `| truncatewords: 3` Shortens a string to the amount of words specified (Rest are ...)
+* `| sum
 * `|
 * `|
 
