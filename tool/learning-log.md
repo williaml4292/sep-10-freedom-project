@@ -157,10 +157,10 @@ Also works with tags.
 * `| date: "%a, %b %d, %y"` Converts a date to another format. (Fri, Jul 17, 15) [Does not need to have all the %variables]
 * `| default: true, allow_false: true` Shows the default value if the variable has no assigned value.
  * `allow_false` makes it so that the variable can be false instead of using the default value.
-* `| divided_by: 3` Divdes a number by another (rounds down)
+* `| divided_by: 3` Divdes a number by another (rounds down) Integer > Integer, Float > Float
+* `| times 1.0` Multiples the value of a variable by 1.0, so that it can give a value with decimals (decimal)
+* `| downcase` Makes the entire string lowercase.
 * `| 
-* `|
-* `|
 
  <!--
 * Links you used today (websites, videos, etc)
