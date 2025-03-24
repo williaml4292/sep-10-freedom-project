@@ -160,7 +160,13 @@ Also works with tags.
 * `| divided_by: 3` Divdes a number by another (rounds down) Integer > Integer, Float > Float
 * `| times 1.0` Multiples the value of a variable by 1.0, so that it can give a value with decimals (decimal)
 * `| downcase` Makes the entire string lowercase.
+* `| escape` Escapes a string by replacing characters with escape sequences (so that the string can be used in a URL, for example) [Doesn't really need to be used]
 * `| 
+* `|
+* `|
+* `|
+* `|
+* `|
 
  <!--
 * Links you used today (websites, videos, etc)
