@@ -167,7 +167,13 @@ Also works with tags.
 * `| sum` Adds all items in a array together. (1 + 1...)
 * `| strip.html` Removes all HTML tags from a string.
 * `| strip` Removes all whitespace from both left & right sides of a string.
-* 
+* `| split: ", "` Divides a string into an array (White spaces in between [vertical])
+* `| sort_natural` Sorts items in a string by a-z without caring about uppercase and lowercase.
+* `| sort` Sorts a-z. Capital > Lowercase.
+* `| size` Shows the number of items in a string.
+* `| round: 2` Rounds the value of a number to the specified amount of decimal places.
+* `| reverse` Reverses the order of items listed in a string.
+* `| 
 
  <!--
 * Links you used today (websites, videos, etc)
