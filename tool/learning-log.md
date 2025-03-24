@@ -154,8 +154,8 @@ Also works with tags.
 * `| at_least: 5` Sets a minimum value for a number.
 * `| at_most: 5` Sets a maximum value for a number.
 * `| ceil` Rounds a number to the nearest whole number.
-* `|
-* `|
+* `| date: "%a, %b %d, %y"` Converts a date to another format. (Fri, Jul 17, 15) [Does not need to have all the %variables]
+* `| 
 * `|
 * `|
 * `|
