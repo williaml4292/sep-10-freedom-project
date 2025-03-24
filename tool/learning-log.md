@@ -146,6 +146,21 @@ Also works with tags.
  Fillers and tags that are specifically made for Jekyll.
 * [Jekyll fillers](https://jekyllrb.com/docs/liquid/filters/)
 * [Jekyll tags](https://jekyllrb.com/docs/liquid/tags/)
+###### Fillers:
+* `| append: "text"` adds "text" **after** your variable. (Can also be a variable)
+* `| prepend: "text"` adds text **before** your variable. (Can also be a variable)
+* `| capitalize` Makes the first letter of your string capital and the rest lowercase.
+* `| abs` Makes a number the _absolute value_ (positve)
+* `| at_least: 5` Sets a minimum value for a number.
+* `| at_most: 5` Sets a maximum value for a number.
+* `| ceil` Rounds a number to the nearest whole number.
+* `|
+* `|
+* `|
+* `|
+* `|
+* `|
+
  <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
