@@ -164,9 +164,10 @@ Also works with tags.
 * `| upcase` Makes all letters uppercase.
 * `| uniq` Removes all items in a string that are repeated.
 * `| truncatewords: 3` Shortens a string to the amount of words specified (Rest are ...)
-* `| sum
-* `|
-* `|
+* `| sum` Adds all items in a array together. (1 + 1...)
+* `| strip.html` Removes all HTML tags from a string.
+* `| strip` Removes all whitespace from both left & right sides of a string.
+* 
 
  <!--
 * Links you used today (websites, videos, etc)
