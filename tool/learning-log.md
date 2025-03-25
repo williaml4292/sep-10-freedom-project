@@ -191,6 +191,8 @@ Only {{ about_me }} shows as content. (the capture part gives about_me the varia
 * `increment`
  * Everytime the variable with this tag `{% increment variable %}` is called with the increment, the count increases by one.
  Does not affect a variable created with `assign` and used as a string.
+`elseif`
+Adds a second conditional (it's a tag)
 
  <!--
 * Links you used today (websites, videos, etc)
