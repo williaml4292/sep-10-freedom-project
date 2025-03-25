@@ -190,6 +190,7 @@ I am {{ age }} and my favorite food is {{ favorite_food }}.
 Only {{ about_me }} shows as content. (the capture part gives about_me the variables too.)
 * `increment`
  * Everytime the variable with this tag `{% increment variable %}` is called with the increment, the count increases by one.
+ Does not affect a variable created with `assign` and used as a string.
 
  <!--
 * Links you used today (websites, videos, etc)
