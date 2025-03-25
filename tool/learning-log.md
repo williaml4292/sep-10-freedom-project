@@ -193,6 +193,9 @@ Only {{ about_me }} shows as content. (the capture part gives about_me the varia
  Does not affect a variable created with `assign` and used as a string.
 `elseif`
 Adds a second conditional (it's a tag)
+* `case` and `when`
+Use when "when" you use "case".
+Case allows you to have different strings depending on the value of the variable.
 
  <!--
 * Links you used today (websites, videos, etc)
