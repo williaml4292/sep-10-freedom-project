@@ -175,6 +175,21 @@ Also works with tags.
 * `| reverse` Reverses the order of items listed in a string.
 * `| join: " and "` Adds a " and " between each item.
 * `| concat: variable` Basically the `CC` in a email. ("Also add this array in the output.")
+#### 3/25/25
+`capture` allows you to use multiple variables to make a more complex string.
+``` Javascript
+{% assign favorite_food = "pizza" %}
+{% assign age = 35 %}
+
+{% capture about_me %}
+I am {{ age }} and my favorite food is {{ favorite_food }}.
+{% endcapture %}
+
+{{ about_me }}
+```
+Only {{ about_me }} shows as content. (the capture part gives about_me the variables too.)
+* `increment`
+ * Everytime the variable with this tag `{% increment variable %}` is called with the increment, the count increases by one.
 
  <!--
 * Links you used today (websites, videos, etc)
