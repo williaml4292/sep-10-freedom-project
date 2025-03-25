@@ -196,6 +196,8 @@ Adds a second conditional (it's a tag)
 * `case` and `when`
 Use when "when" you use "case".
 Case allows you to have different strings depending on the value of the variable.
+* Also tested liquid in Jekyll; `if` `else` and `assign`.
+ * Don't know how to apply fillers yet.
 
  <!--
 * Links you used today (websites, videos, etc)
