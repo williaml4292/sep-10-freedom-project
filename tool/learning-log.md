@@ -199,6 +199,15 @@ Case allows you to have different strings depending on the value of the variable
 * Also tested liquid in Jekyll; `if` `else` and `assign`.
  * Don't know how to apply fillers yet.
 
+#### 3/26/25
+Did some more liquid testing.
+
+You can't put tags (variables) inside of a string; it can only be text.
+For font-matter variables, always do `page.variable`
+* Variable can be: `title`, `categories`, `random-name`, or anything.
+You can put liquid tags in layouts so that the text will only appear if a 'post' has a certain font-matter.
+
+
  <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
