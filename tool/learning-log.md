@@ -207,7 +207,23 @@ For font-matter variables, always do `page.variable`
 * Variable can be: `title`, `categories`, `random-name`, or anything.
 You can put liquid tags in layouts so that the text will only appear if a 'post' has a certain font-matter.
 
+#### 3/27/25
+* Tried out `for loops` with `if` `else` statements.
+If you have a spacebar between the name of a category, it becomes two separate ones.
+In a `if` `else` statement, the `else` will be repeated based on the number of spaces.
+``` javascript
+{% for categories in page.categories %}
+{% if categories contains "Testing" %}
+{{ categories }}
+{% else %}
+<h3> Does not contain "Testing" </h3>
+{% endif %}
+{% endfor %}
 
+```
+Since it's a `for loop`, it can run multiple times instead of one.
+If you add text next to `{{ categories }}`, it can also run mutliple times.
+ * If only one category meets the requirement, only the one that is true will run the `if` statement, the other will run the `else` statement.
  <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
