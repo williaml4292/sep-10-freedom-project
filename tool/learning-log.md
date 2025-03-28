@@ -150,21 +150,21 @@ Also works with tags.
 * `| append: "text"` adds "text" **after** your variable. (Can also be a variable)
 * `| prepend: "text"` adds text **before** your variable. (Can also be a variable)
 * `| capitalize` Makes the first letter of your string capital and the rest lowercase.
-* `| abs` Makes a number the _absolute value_ (positve)
+* `| abs` Makes a number the _absolute value_ (positive)
 * `| at_least: 5` Sets a minimum value for a number.
 * `| at_most: 5` Sets a maximum value for a number.
 * `| ceil` Rounds a number to the nearest whole number.
 * `| date: "%a, %b %d, %y"` Converts a date to another format. (Fri, Jul 17, 15) [Does not need to have all the %variables]
 * `| default: true, allow_false: true` Shows the default value if the variable has no assigned value.
  * `allow_false` makes it so that the variable can be false instead of using the default value.
-* `| divided_by: 3` Divdes a number by another (rounds down) Integer > Integer, Float > Float
-* `| times 1.0` Times a number by another. (Also allows a integer to become a float.)
+* `| divided_by: 3` Divides a number by another (rounds down) Integer > Integer, Float > Float
+* `| times 1.0` Times a number by another. (Also allows an integer to become a float.)
 * `| downcase` Makes the entire string lowercase.
 * `| escape` Escapes a string by replacing characters with escape sequences (so that the string can be used in a URL, for example) [Doesn't really need to be used]
 * `| upcase` Makes all letters uppercase.
 * `| uniq` Removes all items in a string that are repeated.
 * `| truncatewords: 3` Shortens a string to the amount of words specified (Rest are ...)
-* `| sum` Adds all items in a array together. (1 + 1...)
+* `| sum` Adds all items in an array together. (1 + 1...)
 * `| strip.html` Removes all HTML tags from a string.
 * `| strip` Removes all whitespace from both left & right sides of a string.
 * `| split: ", "` Divides a string into an array (White spaces in between [vertical])
@@ -174,7 +174,7 @@ Also works with tags.
 * `| round: 2` Rounds the value of a number to the specified amount of decimal places.
 * `| reverse` Reverses the order of items listed in a string.
 * `| join: " and "` Adds a " and " between each item.
-* `| concat: variable` Basically the `CC` in a email. ("Also add this array in the output.")
+* `| concat: variable` Basically the `CC` in an email. ("Also add this array in the output.")
 #### 3/25/25
 `capture` allows you to use multiple variables to make a more complex string.
 ``` Javascript
@@ -187,14 +187,14 @@ I am {{ age }} and my favorite food is {{ favorite_food }}.
 
 {{ about_me }}
 ```
-Only {{ about_me }} shows as content. (the capture part gives about_me the variables too.)
+Only {{ about_me }} shows as content. (The capture part gives about_me the variables too.)
 * `increment`
  * Everytime the variable with this tag `{% increment variable %}` is called with the increment, the count increases by one.
  Does not affect a variable created with `assign` and used as a string.
 `elseif`
 Adds a second conditional (it's a tag)
 * `case` and `when`
-Use when "when" you use "case".
+Use “when” ‘when’ you use "case".
 Case allows you to have different strings depending on the value of the variable.
 * Also tested liquid in Jekyll; `if` `else` and `assign`.
  * Don't know how to apply fillers yet.
@@ -204,7 +204,7 @@ Did some more liquid testing.
 
 You can't put tags (variables) inside of a string; it can only be text.
 For font-matter variables, always do `page.variable`
-* Variable can be: `title`, `categories`, `random-name`, or anything.
+* Variables can be: `title`, `categories`, `random-name`, or anything.
 You can put liquid tags in layouts so that the text will only appear if a 'post' has a certain font-matter.
 
 #### 3/27/25
@@ -222,7 +222,7 @@ In a `if` `else` statement, the `else` will be repeated based on the number of s
 
 ```
 Since it's a `for loop`, it can run multiple times instead of one.
-If you add text next to `{{ categories }}`, it can also run mutliple times.
+If you add text next to `{{ categories }}`, it can also run multiple times.
  * If only one category meets the requirement, only the one that is true will run the `if` statement, the other will run the `else` statement.
 
 #### 3/28/25
@@ -237,8 +237,8 @@ defaults:
       layout: "post"
 ```
 * **Very Important**
- * CONFIG.YML REQUIRES PROPER INDENTATIONS!!!!!
-  * If it's a single space off, it just won't work at all!!.
+* CONFIG.YML REQUIRES PROPER INDENTATIONS!!!!!
+* If it's a single space off, it just won't work at all!!.
 * Can also be used to set liquid variables.
 Set `path` to an empty string, ("") [makes it select everything.]
 * Use `type` to limit it. (2 main types- `pages` and `posts` )
@@ -252,6 +252,3 @@ Use quotation marks.
 * Questions you still have
 * What you're going to try next
 -->
-
-
-
