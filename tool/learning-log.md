@@ -224,6 +224,27 @@ In a `if` `else` statement, the `else` will be repeated based on the number of s
 Since it's a `for loop`, it can run multiple times instead of one.
 If you add text next to `{{ categories }}`, it can also run mutliple times.
  * If only one category meets the requirement, only the one that is true will run the `if` statement, the other will run the `else` statement.
+
+#### 3/28/25
+Font-Matter-Defaults:
+``` YAML
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      type: "posts"
+      layout: "post"
+```
+* **Very Important**
+ * CONFIG.YML REQUIRES PROPER INDENTATIONS!!!!!
+  * If it's a single space off, it just won't work at all!!.
+* Can also be used to set liquid variables.
+Set `path` to an empty string, ("") [makes it select everything.]
+* Use `type` to limit it. (2 main types- `pages` and `posts` )
+* The layout is your layouts in `_layouts`.
+Use quotation marks.
+
  <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
