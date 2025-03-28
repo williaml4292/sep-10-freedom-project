@@ -227,6 +227,7 @@ If you add text next to `{{ categories }}`, it can also run multiple times.
 
 #### 3/28/25
 Font-Matter-Defaults:
+[https://jekyllrb.com/docs/configuration/front-matter-defaults/](https://jekyllrb.com/docs/configuration/front-matter-defaults/)
 ``` YAML
 defaults:
   -
