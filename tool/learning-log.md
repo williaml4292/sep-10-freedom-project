@@ -243,7 +243,7 @@ defaults:
 Set `path` to an empty string, ("") [makes it select everything.]
 * Use `type` to limit it. (2 main types- `pages` and `posts` )
 * The layout is your layouts in `_layouts`.
-Use quotation marks. 
+Use quotation marks.
 
  <!--
 * Links you used today (websites, videos, etc)
