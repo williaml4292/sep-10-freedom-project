@@ -246,6 +246,7 @@ Set `path` to an empty string, ("") [makes it select everything.]
 * The layout is your layouts in `_layouts`.
 Use quotation marks.
 
+#### 
  <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
