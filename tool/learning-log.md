@@ -253,6 +253,8 @@ In Jekyll, liquid is mainly used for `{% include %}`and making layouts using cat
 
 There doesn't seem to be any way to change the value of a variable using `if``else` statements, which limits the use of dynamic content.
 
+It could be that `liquid` should be used with javascript, so as I don't know javascript yet, it might not be usable.
+
 
 
  <!--
