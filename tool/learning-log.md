@@ -251,7 +251,9 @@ Liquid summary: (In Jekyll)
 
 In Jekyll, liquid is mainly used for `{% include %}`and making layouts using categories/base code.
 
-There doesn't seem to be any way to change the value of a variable using `if``else` statements, which limits the dynamic
+There doesn't seem to be any way to change the value of a variable using `if``else` statements, which limits the use of dynamic content.
+
+
 
  <!--
 * Links you used today (websites, videos, etc)
