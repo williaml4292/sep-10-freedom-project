@@ -246,7 +246,13 @@ Set `path` to an empty string, ("") [makes it select everything.]
 * The layout is your layouts in `_layouts`.
 Use quotation marks.
 
-#### 
+#### 4/2/25
+Liquid summary: (In Jekyll)
+
+In Jekyll, liquid is mainly used for `{% include %}`and making layouts using categories/base code.
+
+There doesn't seem to be any way to change the value of a variable using `if``else` statements, which limits the dynamic
+
  <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
