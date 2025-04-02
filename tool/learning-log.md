@@ -255,9 +255,10 @@ There doesn't seem to be any way to change the value of a variable using `if` `e
 
 It could be that `liquid` should be used with javascript, so as I don't know javascript yet, it might not be usable in terms of short-term usage.
 
-Takeaways:  
+Takeaways:
 Liquid allows you to set values for a variable and reuse that variable, so later on, you can change the variable once and change the content of every post at once, instead of changing it on all posts. In other words, I can set a variable, `author.name` as williaml4292 and use `author.name` every time I want to show the name of the author. However, if I want to change williaml4292 to William Li, I can just change the value of `author.name` instead of individually changing it on every single post.
 
+Basically, if you know that you're going to be reusing a piece of code multiple times, you should create a variable for it, just in case you decide to change it later.
 
 
  <!--
