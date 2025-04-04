@@ -260,6 +260,12 @@ Liquid allows you to set values for a variable and reuse that variable, so later
 
 Basically, if you know that you're going to be reusing a piece of code multiple times, you should create a variable for it, just in case you decide to change it later.
 
+#### 4/4/25
+If you try to use github pages with jekyll, your baseurl and url must be correct.
+[https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
+[https://stackoverflow.com/questions/48197580/jekyll-theme-does-not-work-on-github-pages-but-works-locally](https://stackoverflow.com/questions/48197580/jekyll-theme-does-not-work-on-github-pages-but-works-locally)
+[https://mademistakes.com/mastering-jekyll/site-url-baseurl/](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)
+
 
  <!--
 * Links you used today (websites, videos, etc)
