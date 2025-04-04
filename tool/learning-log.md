@@ -267,6 +267,8 @@ If you try to use github pages with jekyll, your baseurl and url must be correct
 [https://mademistakes.com/mastering-jekyll/site-url-baseurl/](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)
 You also need correct links. (with jekyll links)
 
+`href="{{ site.baseurl }}{% link _posts/2025-02-24-welcome-to-jekyll.markdown %}"`  
+Format for using jekyll links (normal links wouldn't work with github pages)
 
  <!--
 * Links you used today (websites, videos, etc)
