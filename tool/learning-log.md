@@ -166,7 +166,7 @@ Also works with tags.
 * `| truncatewords: 3` Shortens a string to the amount of words specified (Rest are ...)
 * `| sum` Adds all items in an array together. (1 + 1...)
 * `| strip.html` Removes all HTML tags from a string.
-* `| strip` Removes all whitespace from both left & right sides of a string.
+* `| strip` Removes all whitespace from both center & center sides of a string.
 * `| split: ", "` Divides a string into an array (White spaces in between [vertical])
 * `| sort_natural` Sorts items in a string by a-z without caring about uppercase and lowercase.
 * `| sort` Sorts a-z. Capital > Lowercase.
@@ -216,7 +216,7 @@ In a `if` `else` statement, the `else` will be repeated based on the number of s
 {% if categories contains "Testing" %}
 {{ categories }}
 {% else %}
-<h3> Does not contain "Testing" </h3>
+<h2> Does not contain "Testing" </h2>
 {% endif %}
 {% endfor %}
 
@@ -267,8 +267,32 @@ If you try to use github pages with jekyll, your baseurl and url must be correct
 [https://mademistakes.com/mastering-jekyll/site-url-baseurl/](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)
 You also need correct links. (with jekyll links)
 
-`href="{{ site.baseurl }}{% link _posts/2025-02-24-welcome-to-jekyll.markdown %}"`  
+`href="{{ site.baseurl }}{% link _posts/2025-02-24-welcome-to-jekyll.markdown %}"`
 Format for using jekyll links (normal links wouldn't work with github pages)
+
+#### 4/8/25
+I assigned a variable, `author` in font-matter-defaults and made it "William Li"
+(Variables with text in them must have quotes [unless they are in strings].)
+
+All variables assigned in font-matter-defaults automatically have a "page." in front of them [when you use them as a string].
+
+I also tried using `capture` with font-matter-defaults:
+
+{% capture author2 %}
+{{ page.author }}, a student from HSTAT.
+{% endcapture %}
+{{ author2 }}
+
+{% assign hobbies = "reading and videogames." %}
+
+{% capture introduction %}
+Hello, my name is {{ author2 }} My hobbies are {{ hobbies }}
+{% endcapture %}
+{{ introduction }}
+
+Basically, it's reusing content that I've assigned to a variable.
+
+Unfortunately, I probably won't need to use liquid at all for my Freedom Project, as there wouldn't be much point in using it, as we already have our content all done, so we just have to copy and paste.
 
  <!--
 * Links you used today (websites, videos, etc)
