@@ -301,6 +301,14 @@ I found out how to open theme files in ubtunu/
 
 Ctrl + Click on the path that shows up.
 
+
+When you use `if` `else` statements with font-matter-default variables, the `if` statement reads the text from the variable, not the name of the variable.
+
+When you make any changes to gemfile or update it, it will make it so that `jekyll s` no longer works, instead, you have to use `bundle exec jekyll s`.
+
+To fix this, just add `alias serve="bundle exec jekyll serve"` to .bashrc, and use `source .bashrc` to reload it.
+(`code .bashrc` at workspaces.)
+This will make it so that `serve` will do `bundle exec jekyll serve`.  
  <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
