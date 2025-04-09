@@ -308,7 +308,26 @@ When you make any changes to gemfile or update it, it will make it so that `jeky
 
 To fix this, just add `alias serve="bundle exec jekyll serve"` to .bashrc, and use `source .bashrc` to reload it.
 (`code .bashrc` at workspaces.)
-This will make it so that `serve` will do `bundle exec jekyll serve`.  
+This will make it so that `serve` will do `bundle exec jekyll serve`.
+
+It's `elsif`, not `elseif` for adding multiple if options.
+(Only works once if you don't use `for loops`)
+
+For some reason, these statements with `page.date` don't seem to work.
+
+You can use `if` `else` statements to apply css.
+
+``` css
+
+{% if page.categories contains "test" %}
+<style>
+    *{
+    background-color:black !important
+    }
+</style>
+{% endif %}
+
+```
  <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
