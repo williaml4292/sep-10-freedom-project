@@ -294,6 +294,13 @@ Basically, it's reusing content that I've assigned to a variable.
 
 Unfortunately, I probably won't need to use liquid at all for my Freedom Project, as there wouldn't be much point in using it, as we already have our content all done, so we just have to copy and paste.
 
+#### 4/9/25
+I found out how to open theme files in ubtunu/
+
+`bundle info --path theme-name`
+
+Ctrl + Click on the path that shows up.
+
  <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
