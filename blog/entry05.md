@@ -96,7 +96,7 @@ This page does not contain "Jekyll"
 {% endif %}
 {% endfor %}
 ```
-This is another:  
+Here's another:  
 ``` liquid
 {% assign page.author="my_name" %}
 {% capture author2 %}
