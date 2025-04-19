@@ -33,7 +33,7 @@ defaults:
       author: "William"
 ```
 > Sets the _layout_ to be "post" on **all** _posts_ (In `_posts`) and the author variable to be "William".
-* `{% hightlight ruby %}`
+* `{% highlight ruby %}`
   * Jekyll's own code for **syntax highlighting** and showing code on a website.
 * `gem "github-pages", "~> 232", group: :jekyll_plugins`
   * Also add a `#` in front of `gem "jekyll", "~> 4.3.4"`.
@@ -70,9 +70,9 @@ For example:
 {{ a_variable }}
 ```
 > * Short summary of the basics of `liquid`:
->   * Whenever you want to use any **logic** `tags` or _**assign**ing a value to a variable_, you **must** have a **single curly bracket** followed by a **%** **openning** the `tag` and **closing** it.
+>   * Whenever you want to use any **logic** `tags` or _**assign**ing a value to a variable_, you **must** have a **single curly bracket** followed by a **%** **opening** the `tag` and **closing** it.
 >     * Users are **unable** to see ``tags``; they occur in the **backend** of a website.
->   * When using `objects`, you use **double curly brackets** **openning** the `object` and **closing** it.
+>   * When using `objects`, you use **double curly brackets** **opening** the `object` and **closing** it.
 >     * Users **can** see `objects`; they **appear in** the website.
 
 After I learned about the basic _formatting_ of liquid code, I tried to make my own.  
@@ -130,11 +130,13 @@ a string
 When using `liquid`, a single error in _adhering to syntax rules_ could lead to your website just **not loading properly**; one error and `github-pages` just can't deploy at all.  
 For example, if I had `{% if page.title contains "a word }` and do `git add .`, `git commit -m "message"`, and `git push`, when I try to setup `github-pages`, it would fail to deploy the website. I would have to fix all the errors in the syntax, in this case being the **missing** _"_ and _%_:  
 `{% if page.title contains "a word" %}`
-If I make multiple errors in syntax rules, it could **waste a lot of time** due to having to wait for [github](https://github.com/) to `build` and `deploy` everytime.  
+If I make multiple errors in syntax rules, it could **waste a lot of time** due to having to wait for [github](https://github.com/) to `build` and `deploy` every time.  
 In fact, when I go to the `Actions` page in [github](https://github.com/) on this repository, **I get an error due to the incorrect syntax in this entry**. (Strings not being defined, syntax error with the missing `"` and `%`, etc.)  
 
-![Liquid: Incorrect Syntamx](../images/liquid-error.png)
+![Liquid: Incorrect Syntax](../images/liquid-error.png)
 
 [Previous](entry04.md) | [Next](entry06.md)
 
 [Home](../README.md)
+
+
