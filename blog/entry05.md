@@ -74,9 +74,9 @@ For example:
 >     * Users are **unable** to see ``tags``; they occur in the **backend** of a website.
 >   * When using `objects`, you use **double curly brackets** **openning** the `object` and **closing** it.
 >     * Users **can** see `objects`; they **appear in** the website.
-After I learned about the basic _formatting_ of liquid code, I tried to make my own.
 
-Here's what I made:
+After I learned about the basic _formatting_ of liquid code, I tried to make my own.  
+Here's what I made:  
 ``` liquid
 {% if page.title contains "Jekyll" %}
 <strong> This page's title contains "Jekyll" </strong>
