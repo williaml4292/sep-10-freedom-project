@@ -113,6 +113,25 @@ Hello, my name is {{ author2 }} My hobbies are {{ hobbies }}
 ```
 ### Skills
 Two skills that I've developed are since the previous entry are **logical reasoning** and **attention to detail**.
+#### Logical Reasoning
+Since I'm learning about using `liquid` tags, naturally, I would come into contact with logic tags such as `if` `else` statements. In order to use these statements efficiently, I had to think logically; if I add a certain category to `postA`, `postB` and `postC`, but don't add it to `postD`, if I wanted to add a string at the top of the page I would do:
+``` liquid
+{% if page.categories contains "certain category" %}
+a string
+{% endif %}
+```
+However, if I wanted to add a string to only `postD`, I would do:
+``` liquid
+{% unless page.categories contains "certain category" %}
+a string
+{% endunless %}
+```
+#### Attention to Detail
+When using `liquid`, a single error in _adhering to syntax rules_ could lead to your website just **not loading properly**; one error and `github-pages` just can't deploy at all.  
+For example, if I had `{% if page.title contains "a word }` and `add`, `commit`, and `push`, when I try to setup `github-pages`, it would fail to deploy the website. I would have to fix all the errors in the syntax, in this case being the **missing** _"_ and _%_:
+`{% if page.title contains "a word" %}`  
+If I make multiple errors in syntax rules, it could **waste a lot of time** due to having to wait for [github](https://github.com/) to `build` and `deploy` everytime.  
+In fact, when I go to the `Actions` page in [github](https://github.com/) on this repository, I get an error.  
 
 [Previous](entry04.md) | [Next](entry06.md)
 
