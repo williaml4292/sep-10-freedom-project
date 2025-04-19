@@ -114,7 +114,7 @@ Hello, my name is {{ author2 }} My hobbies are {{ hobbies }}
 ### Skills
 Two skills that I've developed are since the previous entry are **logical reasoning** and **attention to detail**.  
 #### Logical Reasoning
-Since I'm learning about using `liquid` tags, naturally, I would come into contact with logic tags such as `if` `else` statements. In order to use these statements efficiently, I had to think logically; if I add a certain category to `postA`, `postB` and `postC`, but don't add it to `postD`, if I wanted to add a string at the top of the page I would do:  
+Since I'm learning about using `liquid` tags, naturally, I would come into contact with logic tags such as `if` `else` statements. In order to use these statements efficiently, I had to think logically; if I add a certain category to `postA`, `postB` and `postC`, but don't add it to `postD`, and I wanted to add a string at the top of `postA`, `postB` and `postC`, I would do:  
 ``` liquid
 {% if page.categories contains "certain category" %}
 a string
