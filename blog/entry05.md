@@ -61,6 +61,9 @@ layout: post.html
 When learning more about Jekyll **beyond** the basics, I mainly learned about `liquid` code from [this website](https://shopify.github.io/liquid/basics/introduction/). However, I also learned about Jekyll's own `liquid` tags from [the official Jekyll site](https://jekyllrb.com/).
 Afterwards, I mainly used [this site](https://talk.jekyllrb.com/) whenever I encountered an error.
 
+Here's how it went:
+I first started off by going to [a site that teaches the basics of `liquid`](https://shopify.github.io/liquid/basics/introduction/) and going through the proper formatting with 
+
 
 
 [Previous](entry04.md) | [Next](entry06.md)
