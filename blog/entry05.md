@@ -58,19 +58,22 @@ layout: post.html
 * `href="{{ site.baseurl }}{% link _posts/2025-03-05-html-file.html %}"`
  * Required to use this syntax for links to use `github pages`.
 ### How I learned:
-When learning more about Jekyll **beyond** the basics, I mainly learned about `liquid` code from [this website](https://shopify.github.io/liquid/basics/introduction/). However, I also learned about Jekyll's own `liquid` tags from [the official Jekyll site](https://jekyllrb.com/).
+When learning more about Jekyll **beyond** the basics, I mainly learned about `liquid` code from [this website](https://shopify.github.io/liquid/basics/introduction/). However, I also learned about _Jekyll's own `liquid` tags_ from [the official Jekyll site](https://jekyllrb.com/).
 Afterwards, I mainly used [this site](https://talk.jekyllrb.com/) whenever I encountered an error.
 
 Here's how it went:
 I first started off by going to [a site that teaches the basics of `liquid`](https://shopify.github.io/liquid/basics/introduction/) and going through the proper formatting with how to make and use variables.
 
-For example,
+For example:
 ``` javascript
 {% assign a_variable="one" %}
 {{ a_variable }}
 ```
-Whenever you want to use any logic tags or assign a value to a variable, you **must** have a single curly bracket followed by a **%** openning the tag and closing it.
-
+* Whenever you want to use any **logic** `tags` or _**assign** a value to a variable_, you **must** have a **single curly bracket** followed by a **%** **openning** the `tag` and **closing** it.
+ * Users are **unable** to see ``tags``; they occur in the **backend** of a website.
+* When using `objects`, you use **double curly brackets** **openning** the `object` and **closing** it.
+ * Users **can** see `objects`; they **appear in** the website.
+ 
 
 [Previous](entry04.md) | [Next](entry06.md)
 
