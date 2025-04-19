@@ -65,7 +65,10 @@ Here's how it went:
 I first started off by going to [a site that teaches the basics of `liquid`](https://shopify.github.io/liquid/basics/introduction/) and going through the proper formatting with how to make and use variables.
 
 For example,
-``` 
+``` javascript
+{% assign a_variable="one" %}
+{{ a_variable }}
+```
 
 
 
