@@ -65,7 +65,7 @@ Here's how it went:
 I first started off by going to [a site that teaches the basics of liquid](https://shopify.github.io/liquid/basics/introduction/) and going through the proper formatting with how to make and use variables.
 
 For example:
-``` javascript
+``` liquid
 {% assign a_variable="one" %}
 {{ a_variable }}
 ```
@@ -74,7 +74,42 @@ For example:
 >     * Users are **unable** to see ``tags``; they occur in the **backend** of a website.
 >   * When using `objects`, you use **double curly brackets** **openning** the `object` and **closing** it.
 >     * Users **can** see `objects`; they **appear in** the website.
+After I learned about the basic _formatting_ of liquid code, I tried to make my own.  
+Here's what I made:
+``` liquid
+{% if page.title contains "Jekyll" %}
+<strong> This page's title contains "Jekyll" </strong>
+{% else %}
+This page does not contain "Jekyll"
+{% endif %}
 
+{% if page.categories contains "jekyll" %}
+{{ var_2 }}
+{% endif %}
+
+{% for categories in page.categories %}
+{% if categories contains "Testing" %}
+{{ categories }} Extra Text
+{% else %}
+<h2> Does not contain "Testing" </h2>
+{% endif %}
+{% endfor %}
+```
+This is another:
+``` liquid
+{% assign page.author="my_name" %}
+{% capture author2 %}
+{{ page.author }}, a student from HSTAT.
+{% endcapture %}
+{{ author2 }}
+
+{% assign hobbies = "reading and videogames." %}
+
+{% capture introduction %}
+Hello, my name is {{ author2 }} My hobbies are {{ hobbies }}
+{% endcapture %}
+{{ introduction }}
+```
 
 [Previous](entry04.md) | [Next](entry06.md)
 
