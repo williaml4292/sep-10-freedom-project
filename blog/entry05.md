@@ -1,9 +1,9 @@
 # Entry 5
 ##### 4/1/25
 
-### Jekyll Part 2
+### Jekyll Part 2  
 After learning about the basics of Jekyll, I learned more advanced things such as `liquid` and `font-matter-defaults`.
-### What I've learned:
+### What I've learned:  
 * `{% assign variable="variable-name" %}`
   * **Makes** a variable and set its value to "variable-name".
 * `| filler`
@@ -58,13 +58,13 @@ layout: post.html
 * `href="{{ site.baseurl }}{% link _posts/2025-03-05-html-file.html %}"`
   * Required to use this syntax for links to use `github pages`.
 ### How I learned:
-When learning more about Jekyll **beyond** the basics, I mainly learned about `liquid` code from [this website](https://shopify.github.io/liquid/basics/introduction/). However, I also learned about _Jekyll's own `liquid` tags_ from [the official Jekyll site](https://jekyllrb.com/).
-Afterwards, I mainly used [this site](https://talk.jekyllrb.com/) whenever I encountered an error.
+When learning more about Jekyll **beyond** the basics, I mainly learned about `liquid` code from [this website](https://shopify.github.io/liquid/basics/introduction/). However, I also learned about _Jekyll's own `liquid` tags_ from [the official Jekyll site](https://jekyllrb.com/).  
+Afterwards, I mainly used [this site](https://talk.jekyllrb.com/) whenever I encountered an error.  
 
 Here's how it went:
-I first started off by going to [a site that teaches the basics of liquid](https://shopify.github.io/liquid/basics/introduction/) and going through the proper formatting with how to make and use variables.
+I first started off by going to [a site that teaches the basics of liquid](https://shopify.github.io/liquid/basics/introduction/) and going through the proper formatting with how to make and use variables.  
 
-For example:
+For example:  
 ``` liquid
 {% assign a_variable="one" %}
 {{ a_variable }}
@@ -75,8 +75,8 @@ For example:
 >   * When using `objects`, you use **double curly brackets** **openning** the `object` and **closing** it.
 >     * Users **can** see `objects`; they **appear in** the website.
 
-After I learned about the basic _formatting_ of liquid code, I tried to make my own.
-Here's what I made:
+After I learned about the basic _formatting_ of liquid code, I tried to make my own.  
+Here's what I made:  
 ``` liquid
 {% if page.title contains "Jekyll" %}
 <strong> This page's title contains "Jekyll" </strong>
@@ -96,7 +96,7 @@ This page does not contain "Jekyll"
 {% endif %}
 {% endfor %}
 ```
-This is another:
+This is another:  
 ``` liquid
 {% assign page.author="my_name" %}
 {% capture author2 %}
@@ -112,26 +112,26 @@ Hello, my name is {{ author2 }} My hobbies are {{ hobbies }}
 {{ introduction }}
 ```
 ### Skills
-Two skills that I've developed are since the previous entry are **logical reasoning** and **attention to detail**.
+Two skills that I've developed are since the previous entry are **logical reasoning** and **attention to detail**.  
 #### Logical Reasoning
-Since I'm learning about using `liquid` tags, naturally, I would come into contact with logic tags such as `if` `else` statements. In order to use these statements efficiently, I had to think logically; if I add a certain category to `postA`, `postB` and `postC`, but don't add it to `postD`, if I wanted to add a string at the top of the page I would do:
+Since I'm learning about using `liquid` tags, naturally, I would come into contact with logic tags such as `if` `else` statements. In order to use these statements efficiently, I had to think logically; if I add a certain category to `postA`, `postB` and `postC`, but don't add it to `postD`, if I wanted to add a string at the top of the page I would do:  
 ``` liquid
 {% if page.categories contains "certain category" %}
 a string
 {% endif %}
 ```
-However, if I wanted to add a string to only `postD`, I would do:
+However, if I wanted to add a string to only `postD`, I would do:  
 ``` liquid
 {% unless page.categories contains "certain category" %}
 a string
 {% endunless %}
 ```
 #### Attention to Detail
-When using `liquid`, a single error in _adhering to syntax rules_ could lead to your website just **not loading properly**; one error and `github-pages` just can't deploy at all.
-For example, if I had `{% if page.title contains "a word }` and `add`, `commit`, and `push`, when I try to setup `github-pages`, it would fail to deploy the website. I would have to fix all the errors in the syntax, in this case being the **missing** _"_ and _%_:
+When using `liquid`, a single error in _adhering to syntax rules_ could lead to your website just **not loading properly**; one error and `github-pages` just can't deploy at all.  
+For example, if I had `{% if page.title contains "a word }` and do `git add .`, `git commit -m "message"`, and `git push`, when I try to setup `github-pages`, it would fail to deploy the website. I would have to fix all the errors in the syntax, in this case being the **missing** _"_ and _%_:  
 `{% if page.title contains "a word" %}`
-If I make multiple errors in syntax rules, it could **waste a lot of time** due to having to wait for [github](https://github.com/) to `build` and `deploy` everytime.
-In fact, when I go to the `Actions` page in [github](https://github.com/) on this repository, **I get an error due to the incorrect syntax in this entry**. (Strings not being defined, syntax error with the missing `"` and `%`, etc.)
+If I make multiple errors in syntax rules, it could **waste a lot of time** due to having to wait for [github](https://github.com/) to `build` and `deploy` everytime.  
+In fact, when I go to the `Actions` page in [github](https://github.com/) on this repository, **I get an error due to the incorrect syntax in this entry**. (Strings not being defined, syntax error with the missing `"` and `%`, etc.)  
 
 ![Liquid: Incorrect Syntamx](../images/liquid-error.png)
 
