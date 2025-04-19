@@ -112,7 +112,8 @@ Hello, my name is {{ author2 }} My hobbies are {{ hobbies }}
 {{ introduction }}
 ```
 ### Skills
-Two skills that I've developed are
+Two skills that I've developed are since the previous entry are **logical reasoning** and **attention to detail**.
+
 [Previous](entry04.md) | [Next](entry06.md)
 
 [Home](../README.md)
