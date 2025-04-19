@@ -5,23 +5,23 @@
 After learning about the basics of Jekyll, I learned more advanced things such as `liquid` and `font-matter-defaults`.
 ### What I've learned:
 * `{% assign variable="variable-name" %}`
- * Makes a variable and set its value to "variable-name".
+ * **Makes** a variable and set its value to "variable-name".
 * `| filler`
- * Goes right before `%}` and changes the string.
-   * Strings are basically, what the user see when they load the website.
+ * Goes right before `%}` and **changes** the _string_.
+   * Strings are basically, _what the user sees when they load the website.
 * `{{ variable }}`
- * A piece of liquid code that shows a variable as a string.
+ * A piece of liquid code that shows the **value of a variable** as a string.
 * `{% if variable="text" %}`
  * If the **statement is true**, run:
   * Ends with `{% endif %}`.
 * `{% if variable contains "text" %}`
- * If the variable contains this **text**, run:
+ * If the **value of this variable** contains this **text**, run:
 * `{% elsif %}`
- * Allows a second condition to be true to make a different string.
+ * Allows a _second condition to be true_ **when the first is false** to make a **different** string.
 * `{% unless %}`
  * Opposite of `if`.
 * `{% for names in author.names %}`
- * `For loop`, allows the code to run multiple times.
+ * `For loop`, allows the code to run **multiple** times.
 ``` yaml
 defaults:
   -
@@ -32,12 +32,12 @@ defaults:
       layout: "post"
       author: "William"
 ```
-  * Sets the _layout_ to be "post" on all posts (In `_posts`) and the author variable to be "William".
+  * Sets the _layout_ to be "post" on **all** _posts_ (In `_posts`) and the author variable to be "William".
  * `{% hightlight ruby %}`
   * Jekyll's own code for **syntax highlighting** and showing code on a website.
 * `gem "github-pages", "~> 232", group: :jekyll_plugins`
  * Also add a `#` in front of `gem "jekyll", "~> 4.3.4"`.
-  * Jekyll has a different way of using `github pages`, you must change the gem to `github-pages`.
+  * Jekyll has a different way of using `github pages`; you must change the gem to `github-pages`.
 ``` yaml
 ---
 title:  "Jekyll Summary"
@@ -69,7 +69,7 @@ For example,
 {% assign a_variable="one" %}
 {{ a_variable }}
 ```
-
+Whenever you want to use any logic tags or assign a value to a variable, you **must** have a single curly bracket followed by a **%** openning the tag and closing it.
 
 
 [Previous](entry04.md) | [Next](entry06.md)
