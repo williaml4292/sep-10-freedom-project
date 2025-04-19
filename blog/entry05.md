@@ -111,7 +111,8 @@ Hello, my name is {{ author2 }} My hobbies are {{ hobbies }}
 {% endcapture %}
 {{ introduction }}
 ```
-
+### Skills
+Two skills that I've developed are
 [Previous](entry04.md) | [Next](entry06.md)
 
 [Home](../README.md)
