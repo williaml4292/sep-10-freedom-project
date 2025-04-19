@@ -131,7 +131,7 @@ When using `liquid`, a single error in _adhering to syntax rules_ could lead to 
 For example, if I had `{% if page.title contains "a word }` and `add`, `commit`, and `push`, when I try to setup `github-pages`, it would fail to deploy the website. I would have to fix all the errors in the syntax, in this case being the **missing** _"_ and _%_:
 `{% if page.title contains "a word" %}`  
 If I make multiple errors in syntax rules, it could **waste a lot of time** due to having to wait for [github](https://github.com/) to `build` and `deploy` everytime.  
-In fact, when I go to the `Actions` page in [github](https://github.com/) on this repository, **I get an error due to the incorrect syntax above.**
+In fact, when I go to the `Actions` page in [github](https://github.com/) on this repository, **I get an error due to the incorrect syntax in this entry**. (Strings not being defined, syntax error with the missing `"` and `%`, etc.)
 
 ![Liquid: Incorrect Syntamx](../images/liquid-error.png)
 [Previous](entry04.md) | [Next](entry06.md)
