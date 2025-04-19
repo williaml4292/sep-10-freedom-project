@@ -57,11 +57,11 @@ layout: post.html
   * Delete `Gemfile.lock` and do `bundle install` to get an updated version.
 * `href="{{ site.baseurl }}{% link _posts/2025-03-05-html-file.html %}"`
   * Required to use this syntax for links to use `github pages`.
-### How I learned:  
-When learning more about Jekyll **beyond** the basics, I mainly learned about `liquid` code from [this website](https://shopify.github.io/liquid/basics/introduction/). However, I also learned about _Jekyll's own `liquid` tags_ from [the official Jekyll site](https://jekyllrb.com/).  
+### How I learned:
+When learning more about Jekyll **beyond** the basics, I mainly learned about `liquid` code from [this website](https://shopify.github.io/liquid/basics/introduction/). However, I also learned about _Jekyll's own `liquid` tags_ from [the official Jekyll site](https://jekyllrb.com/).
 Afterwards, I mainly used [this site](https://talk.jekyllrb.com/) whenever I encountered an error.
 
-Here's how it went:  
+Here's how it went:
 I first started off by going to [a site that teaches the basics of liquid](https://shopify.github.io/liquid/basics/introduction/) and going through the proper formatting with how to make and use variables.
 
 For example:
@@ -75,8 +75,8 @@ For example:
 >   * When using `objects`, you use **double curly brackets** **openning** the `object` and **closing** it.
 >     * Users **can** see `objects`; they **appear in** the website.
 
-After I learned about the basic _formatting_ of liquid code, I tried to make my own.  
-Here's what I made:  
+After I learned about the basic _formatting_ of liquid code, I tried to make my own.
+Here's what I made:
 ``` liquid
 {% if page.title contains "Jekyll" %}
 <strong> This page's title contains "Jekyll" </strong>
@@ -127,13 +127,14 @@ a string
 {% endunless %}
 ```
 #### Attention to Detail
-When using `liquid`, a single error in _adhering to syntax rules_ could lead to your website just **not loading properly**; one error and `github-pages` just can't deploy at all.  
+When using `liquid`, a single error in _adhering to syntax rules_ could lead to your website just **not loading properly**; one error and `github-pages` just can't deploy at all.
 For example, if I had `{% if page.title contains "a word }` and `add`, `commit`, and `push`, when I try to setup `github-pages`, it would fail to deploy the website. I would have to fix all the errors in the syntax, in this case being the **missing** _"_ and _%_:
-`{% if page.title contains "a word" %}`  
-If I make multiple errors in syntax rules, it could **waste a lot of time** due to having to wait for [github](https://github.com/) to `build` and `deploy` everytime.  
+`{% if page.title contains "a word" %}`
+If I make multiple errors in syntax rules, it could **waste a lot of time** due to having to wait for [github](https://github.com/) to `build` and `deploy` everytime.
 In fact, when I go to the `Actions` page in [github](https://github.com/) on this repository, **I get an error due to the incorrect syntax in this entry**. (Strings not being defined, syntax error with the missing `"` and `%`, etc.)
 
 ![Liquid: Incorrect Syntamx](../images/liquid-error.png)
+
 [Previous](entry04.md) | [Next](entry06.md)
 
 [Home](../README.md)
