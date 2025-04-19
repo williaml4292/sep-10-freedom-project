@@ -62,7 +62,7 @@ When learning more about Jekyll **beyond** the basics, I mainly learned about `l
 Afterwards, I mainly used [this site](https://talk.jekyllrb.com/) whenever I encountered an error.
 
 Here's how it went:  
-I first started off by going to [a site that teaches the basics of `liquid`](https://shopify.github.io/liquid/basics/introduction/) and going through the proper formatting with how to make and use variables.
+I first started off by going to [a site that teaches the basics of liquid](https://shopify.github.io/liquid/basics/introduction/) and going through the proper formatting with how to make and use variables.
 
 For example:
 ``` javascript
