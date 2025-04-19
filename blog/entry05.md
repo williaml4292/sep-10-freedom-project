@@ -69,11 +69,11 @@ For example:
 {% assign a_variable="one" %}
 {{ a_variable }}
 ```
-* Short summary of the basics of `liquid`:
- * Whenever you want to use any **logic** `tags` or _**assign** a value to a variable_, you **must** have a **single curly bracket** followed by a **%** **openning** the `tag` and **closing** it.
-  * Users are **unable** to see ``tags``; they occur in the **backend** of a website.
- * When using `objects`, you use **double curly brackets** **openning** the `object` and **closing** it.
-  * Users **can** see `objects`; they **appear in** the website.
+> * Short summary of the basics of `liquid`:
+>  * Whenever you want to use any **logic** `tags` or _**assign** a value to a variable_, you **must** have a **single curly bracket** followed by a **%** **openning** the `tag` and **closing** it.
+>  * Users are **unable** to see ``tags``; they occur in the **backend** of a website.
+> * When using `objects`, you use **double curly brackets** **openning** the `object` and **closing** it.
+>  * Users **can** see `objects`; they **appear in** the website.
 
 
 [Previous](entry04.md) | [Next](entry06.md)
