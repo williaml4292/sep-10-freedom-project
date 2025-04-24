@@ -13,22 +13,36 @@
   * [Credits](https://wireframe.cc/tgClxu)
 
 ## Colors
-* `#ABC123`
+* Linear gradient background (animation)
+* Animated colors for important things (headers)
+* Animated background linear gradient for accordions (to bottom right)
+* Basic colors for everything else
 
-## Fonts
-* [Text](URL)
+## Bootstrap tools
+* Navbar
+* Accordion
+* Scrollspy (Internal links)
+* Cards (captions for images (credits))
 
 ## Timeline
 
 #### MVP
-
-* Task/Timeline
-
+* Basic colors to label each section.
+* All content on the webpage.
+* Links should work.
+* When you go to **github pages**, it should start off in the home page of the jekyll static website.
+* Should resemble the wireframe, even if it's not perfect.
+* The standard font.
 ---
 
 #### Beyond MVP
+* Linear gradients
+* Animated colors
+* When you hover on a image, it becomes bigger.
+* Experiment with different hexcodes.
+* Perfect alignment.
 
-* Task
+* Experiment with fonts.
 
 
 
