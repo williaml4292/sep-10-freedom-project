@@ -25,7 +25,10 @@
 * Cards (captions for images (credits))
 
 ## Timeline
-
+* **April. 25**: Finish Plan and setup *github-pages*, as well as making posts (move onto navbar when done)
+* **Apirl. 28**: Make navbar, add links to all the posts. Also start making all the sections for the content.
+* **April 29- May 1** Finish content while adding bootstrap tools, and perferably, MVP.
+* **May 2-5** Finish MVP and go beyond MVP.
 #### MVP
 * Basic colors to label each section.
 * All content on the webpage.
