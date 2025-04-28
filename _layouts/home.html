@@ -1,34 +1,84 @@
 ---
-layout: default
+
 ---
+<style>
+  h1{
+    text-align:center;
+    padding:4%;
+    font-size:80px;
+  }
+  nav ul {
+        display: flex;
+    }
+    nav ul li {
+        margin-left: 17.5vw;
+        background-color: lightyellow;
+        height:4vw;
+    }
+    nav ul li a {
+        font-size:1.5vw !important;
+        color: black !important;
+        text-align:center;
+    }
+    nav ul li a:hover {
+        text-decoration: underline !important;
+        color:blue !important;
+    }
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+</style>
 
-  {{ content }}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+<body>
+  <nav class="navbar bg-dark border-bottom border-body navbar-expand-md" data-bs-theme="dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}{% link _posts/2025-04-27-Tools.html %}">Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ site.baseurl }}{% link _posts/2025-04-27-Future-Inventions.html %}">Future Inventions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{{ site.baseurl }}{% link _posts/2025-04-27-Credits.html %}">Credits</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
 
+<h1> Finance </h1>
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <ul>
+          <li>
+
+          </li>
+          <li>
+
+          </li>
+          <li>
+
+          </li>
+        </ul>
+        <div class="col-md-6 col-sm-12">
+          <img src="">
+        </div>
+      </div>
+  </div>
 </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
