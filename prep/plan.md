@@ -1,6 +1,6 @@
 # Plan
 
-## Wireframes
+## Wireframes (The extra images are beyond MVP; there are only two images for MVP.)
 * Mobile
   * [Index](https://wireframe.cc/hunuok)
   * [Tools](https://wireframe.cc/ODICQe)
