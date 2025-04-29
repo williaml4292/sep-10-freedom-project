@@ -28,7 +28,13 @@ description:  >- # this means to ignore newlines until "baseurl:"
 url: "https://williaml4292.github.io/sep-10-freedom-project" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
-
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      type: "post"
+      layout: "post"
 # Build settings
 theme: minima
 plugins:
