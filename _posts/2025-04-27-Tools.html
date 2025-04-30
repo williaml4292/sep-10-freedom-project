@@ -12,11 +12,17 @@
     margin-left:1vw;
     height:80%;
    }
+   .margin-top{
+    margin-top:5vw;
+   }
    @media (max-width:767px){
     nav ul li a {
       text-align:left !important;
       font-size:25px !important;
       margin-bottom:5vw !important;
+    }
+    img{
+      width:380px !important;
     }
    }
    img{
@@ -25,6 +31,17 @@
    .bigger-img{
     width:15.5vw;
    }
+   @media (max-width:800px){
+      h2, h3{
+        font-size:15px !important;
+      }
+    }
+    .div1{
+      background: linear-gradient(red, orange);
+    }
+    .div2{
+      background:linear-gradient(lime, lightblue);
+    }
 </style>
 <head>
     <meta charset="utf-8">
@@ -215,6 +232,8 @@
         <img class="bigger-img" src="{{ site.baseurl }}/images/UPS.jpg">
       </div>
     </div>
+
+    <h2 class="margin-top"> Hardware used to display information to customers:</h2>
   </div>
 
 </section>
