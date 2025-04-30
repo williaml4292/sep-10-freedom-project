@@ -12,8 +12,18 @@
     margin-left:1vw;
     height:80%;
    }
+   @media (max-width:767px){
+    nav ul li a {
+      text-align:left !important;
+      font-size:25px !important;
+      margin-bottom:5vw !important;
+    }
+   }
    img{
     width:40%;
+   }
+   .bigger-img{
+    width:15.5vw;
    }
 </style>
 <head>
@@ -75,8 +85,6 @@
                                 </div>
                               </div>
                             </div>
-
-
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -90,6 +98,7 @@
                                   </div>
                                 </div>
                               </div>
+
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -156,12 +165,60 @@
         <h2>
             Below will be some of the hardware that people may use in the financial industry when working with corporations that I found on <a href="https://www.tradefinanceglobal.com/finance-products/technology-finance-hardware-software/">this website. </a>
         </h2>
-        <div class="accordion" id="a2">
-          
+    <div class="container">
+        <div class="row">
+           <div class="col-md-6">
+              <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#1" aria-expanded="true" aria-controls="1">
+                          UPS (1934)
+                        </button>
+                      </h2>
+                      <div id="1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Stands for an Uninterruptible Power Supply
+                          Basically, in case of your computer suddenly has a power failure, a UPS will help your computer maintain power and prevent it from being damaged.
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#2" aria-expanded="false" aria-controls="2">
+                          VOIP terminals (1995)
+                        </button>
+                      </h2>
+                      <div id="2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Allows people to make calls over broadband internet connections instead of using a standard phone call.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#3" aria-expanded="false" aria-controls="3">
+                          Routers (1969)
+                        </button>
+                      </h2>
+                      <div id="3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Allows companies to connect to the internet.
+                        </div>
+                      </div>
+                    </div>
+
+         </div>
+
+      </div>
+      <div class="col-md-6">
+        <img class="bigger-img" src="{{ site.baseurl }}/images/UPS.jpg">
+      </div>
+    </div>
+  </div>
+
+</section>
         <!-- <img src="">  Another beyond MVP-->
-        <img src="{{ site.baseurl }}/images/UPS.jpg">
-    </div>
-    </div>
 </section>
 <section>
 
