@@ -7,6 +7,18 @@
     padding:4%;
     font-size:80px;
   }
+  body{
+   background-image: radial-gradient(circle at 90% 80%, transparent, white);
+   animation-iteration-count: infinite;
+   animation-duration: 4s;
+   animation-name:back;
+  }
+  @keyframes back {
+    0% {background-color:lime;}
+    33% {background-color:red;}
+    66% {background-color:cyan;}
+    100% {background-color:lime;}
+  }
   nav ul {
         display: flex;
     }
@@ -32,7 +44,7 @@
         color:blue !important;
     }
     img{
-      width:70%;
+      width:55%;
     }
 </style>
 
