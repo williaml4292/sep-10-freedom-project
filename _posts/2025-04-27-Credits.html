@@ -12,15 +12,20 @@ category: credits
     }
     @media (max-width:991px) and (min-width:767px){
         img {
-            width:15vw !important;
+            width:20vw !important;
         }
-        .card-left{
-            display:block;
-            text-align:left;
-            }
-        .card-right{
-            display:block;
-            text-align:right;
+    }
+    h5{
+        text-align:center;
+    }
+    @media(max-width:576px){
+        img{
+            width:27vw !important;
+        }
+    }
+    @media(max-width:575px){
+        img{
+            width:40vw !important;
         }
     }
 </style>
@@ -47,35 +52,29 @@ category: credits
     </div>
     <hr>
     <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card card-left" style="width: 18rem;">
-                    <img src="{{ site.baseurl }}/images/business-and-finance-vector-icon.jpg" class="card-img-top" alt="Home Page Image">
-                    <div class="card-body">
-                      <h5 class="card-title">Home Page Image</h5>
-                      <a href="https://freerangestock.com/sample/118337/business-and-finance-vector-icon.jpg"> https://freerangestock.com/sample/118337/business-and-finance-vector-icon.jpg</a>
-                    </div>
-                  </div>
+        <div class="card-group">
+            <div class="card">
+              <img src="{{ site.baseurl }}/images/business-and-finance-vector-icon.jpg" class="card-img-top" alt="Home Page Image">
+              <div class="card-body">
+                <h5 class="card-title">Home Page Image</h5>
+                <a href="https://freerangestock.com/sample/118337/business-and-finance-vector-icon.jpg">https://freerangestock.com/sample/118337/business-and-finance-vector-icon.jpg</a>
+              </div>
             </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="{{ site.baseurl }}/images/UPS.jpg" class="card-img-top" alt="UPS Image">
-                    <div class="card-body">
-                      <h5 class="card-title"> UPS Image </h5>
-                      <a href="https://freerangestock.com/sample/118337/business-and-finance-vector-icon.jpg"> https://freerangestock.com/sample/118337/business-and-finance-vector-icon.jpg</a>
-                    </div>
-                  </div>
+            <div class="card">
+              <img src="{{ site.baseurl }}/images/UPS.jpg" class="card-img-top" alt="UPS">
+              <div class="card-body">
+                <h5 class="card-title">UPS Image</h5>
+                <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Apc_backup-ups_xs_1000_observe.jpg/800px-Apc_backup-ups_xs_1000_observe.jpg?20200330184251">https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Apc_backup-ups_xs_1000_observe.jpg/800px-Apc_backup-ups_xs_1000_observe.jpg?20200330184251</a>
+              </div>
             </div>
-            <div class="col-md-4">
-                <div class="card card-right" style="width: 18rem;">
-                    <img src="{{ site.baseurl }}/images/Teleportation.png" class="card-img-top" alt="Teleporation">
-                    <div class="card-body">
-                      <h5 class="card-title">Teleportation Image</h5>
-                      <a href="https://openclipart.org/image/800px/268642"> https://openclipart.org/image/800px/268642</a>
-                    </div>
-                  </div>
+            <div class="card">
+              <img src="{{ site.baseurl }}/images/Teleportation.png" class="card-img-top" alt="Teleportation Image">
+              <div class="card-body">
+                <h5 class="card-title">Teleportation Image</h5>
+                <a href="https://openclipart.org/image/800px/268642">https://openclipart.org/image/800px/268642</a>
+              </div>
             </div>
-        </div>
+          </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
