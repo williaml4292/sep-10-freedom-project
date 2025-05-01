@@ -2,14 +2,27 @@
 category: future
 ---
 <style>
+     body{
+   background-image: radial-gradient(circle at 90% 80%, transparent, white);
+   animation-iteration-count: infinite;
+   animation-duration: 4s;
+   animation-name:back;
+  }
+  @keyframes back {
+    0% {background-color:darkgreen;}
+    33% {background-color:red;}
+    66% {background-color:orange;}
+    100% {background-color:darkgreen;}
+  }
   img {
     width:29vw;
   }
   h2{
     text-align:center;
+    color:#1e9e54 !important;
   }
   h1{
-    color:darkgreen !important;
+    color:#291e9e !important;
     text-align:center;
   }
   @media (min-width:767px) and (max-width:991px){

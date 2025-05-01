@@ -2,6 +2,21 @@
 category: tools
 ---
 <style>
+   body{
+   background-image: radial-gradient(circle at 90% 80%, transparent, white);
+   animation-iteration-count: infinite;
+   animation-duration: 4s;
+   animation-name:back;
+  }
+  @keyframes back {
+    0% {background-color:darkgreen;}
+    33% {background-color:darkred;}
+    66% {background-color:darkblue;}
+    100% {background-color:darkgreen;}
+  }
+  .accordion-button{
+    display:block !important;
+}
     h2{
         text-align:center;
         font-size:1.5vw !important;
@@ -11,10 +26,7 @@ category: tools
     margin-right:15vw;
     margin-top:4vw;
    }
-   .center2{
-    margin-left:1vw;
-    height:80%;
-   }
+
    .margin-top{
     margin-top:5vw;
    }
@@ -45,10 +57,29 @@ category: tools
       }
     }
     .div1{
-      background: linear-gradient(red, orange);
+      background-image: radial-gradient(circle at 90% 80%, transparent, white);
+      animation-name:name;
+      animation-duration:8s;
+      animation-iteration-count:infinite;
     }
     .div2{
-      background:linear-gradient(lime, lightblue);
+      background-image: radial-gradient(circle at 90% 80%, transparent, white);
+      animation:green 4s infinite;
+    }
+    .accordian{
+      text-align:center !important;
+    }
+    @keyframes name{
+      0% {background-color:pink;}
+      33%{background-color:red;}
+      66%{background-color:darkred;}
+      100%{background-color:pink;}
+    }
+    @keyframes green{
+      0%{background-color:lightgreen;}
+      33%{background-color:green;}
+      66%{background-color:darkgreen;}
+      100%{background-color:lightgreen;}
     }
 </style>
 <head>
@@ -68,6 +99,7 @@ category: tools
             There are many different softwares and hardwares that people may use to manage their money when learning how to finance. This part of my website will go over some of the various applications and hardware that currently exist in the financial field.
             Below are some budgeting apps that people may use for personal finance that I found on <a href="https://post.edu/blog/10-best-budgeting-apps-for-college-students/">this site.</a>
         </h2>
+        <hr>
     </div>
     <div class="container-fluid">
         <div class="container">
@@ -198,6 +230,7 @@ category: tools
         <h2>
             Below will be some of the hardware that people may use in the financial industry when working with corporations that I found on <a href="https://www.tradefinanceglobal.com/finance-products/technology-finance-hardware-software/">this website. </a>
         </h2>
+        <hr>
     <div class="container">
         <div class="row">
            <div class="col-md-6">
