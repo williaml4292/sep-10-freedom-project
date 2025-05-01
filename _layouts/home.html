@@ -45,12 +45,22 @@
   }
     img{
       width:55%;
+      display:block;
+        margin:auto;
     }
     @keyframes header{
       0%{color:yellow;}
       33%{color:#c6c61a;}
       66%{color:#92921e;}
       100%{color:yellow;}
+    }
+    h3{
+      text-align:center;
+    }
+    @media (min-width:768px) and (max-width:992px){
+      img{
+        width:75% !important;
+      }
     }
 </style>
 
@@ -87,8 +97,8 @@
 <div class="container-fluid">
   <div class="container">
     <div class="row">
-      <h3> Overview:</h3>
       <div class="col-md-6 col-sm-12">
+        <h3> Overview:</h3>
         <ul>
           <li>
             Many people live their entire lives without knowing anything about finance, whether it is personal finance or finance in corporations, so I made this website to try to fix that issue.
