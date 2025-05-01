@@ -93,6 +93,13 @@ category: tools
       66%{background-color:darkgreen;}
       100%{background-color:lightgreen;}
     }
+    .scrollspy{
+      margin-top:20vw;
+      position:fixed;
+    }
+    .width-scroll{
+      width:15vw !important;
+    }
 </style>
 <head>
     <meta charset="utf-8">
@@ -100,10 +107,22 @@ category: tools
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
+  <footer id="list-item-1"></footer>
     {% include navbar.html %}
 
 
 <section>
+  <div class="row scrollspy">
+    <div class="col-2">
+      <div id="list-example" class="list-group">
+        <a class="list-group-item list-group-item-action width-scroll" href="#list-item-1">Top</a>
+        <a class="list-group-item list-group-item-action width-scroll" href="#list-item-2">Software & Hardware</a>
+        <a class="list-group-item list-group-item-action width-scroll" href="#list-item-3">Hardware in Corporations</a>
+      </div>
+    </div>
+
+  </div>
+  <footer id="list-item-2"></footer>
   <div class="container">
     <div class="div1">
     <div class="center">
@@ -237,10 +256,11 @@ category: tools
   </div>
 </section>
 <section>
+  <footer id="list-item-3"></footer>
   <div class="container">
     <div class="div2">
     <div class="center">
-      <h1> Hardware people use in cooperations</h1>
+      <h1> Hardware people use in corporations</h1>
       <hr>
         <h2>
             Below will be some of the hardware that people may use in the financial industry when working in corporations that I found on <a href="https://www.tradefinanceglobal.com/finance-products/technology-finance-hardware-software/">this website. </a>

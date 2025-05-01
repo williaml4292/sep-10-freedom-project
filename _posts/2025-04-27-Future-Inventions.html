@@ -2,6 +2,13 @@
 category: future
 ---
 <style>
+     .scrollspy{
+      margin-top:20vw;
+      position:fixed;
+    }
+    .width-scroll{
+      width:15vw !important;
+    }
      body{
    background-image: radial-gradient(circle at 90% 80%, transparent, white);
    animation-iteration-count: infinite;
@@ -62,11 +69,23 @@ category: future
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
+  <footer id="list-item-1"></footer>
     {% include navbar.html %}
-
+    <div class="row scrollspy">
+      <div class="col-2">
+        <div id="list-example" class="list-group">
+          <a class="list-group-item list-group-item-action width-scroll" href="#list-item-1">Top</a>
+          <a class="list-group-item list-group-item-action width-scroll" href="#list-item-2">The Financial Phone</a>
+          <a class="list-group-item list-group-item-action width-scroll" href="#list-item-3">DNA Modification</a>
+          <a class="list-group-item list-group-item-action width-scroll" href="#list-item-4">The Limiter Drone</a>
+          <a class="list-group-item list-group-item-action width-scroll" href="#list-item-5">Teleporting Delivery</a>
+        </div>
+      </div>
+    </div>
     <div class="container">
         <h1> Potential Future Inventions in the Financial Field </h1>
     </div>
+    <footer id="list-item-2"></footer>
     <div class="container">
         <h2> The Financial Phone </h2>
         <div class="accordion" id="accordionExample">
@@ -97,6 +116,7 @@ category: future
             </div>
         </div>
 </div>
+<footer id="list-item-3"></footer>
         <div class="container">
             <h2> DNA Modification </h2>
             <div class="accordion" id="accordionExample">
@@ -124,6 +144,7 @@ category: future
                 </div>
             </div>
 </div>
+<footer id="list-item-4"></footer>
             <div class="container">
                 <h2> The Limiter Drone </h2>
                 <div class="accordion" id="accordionExample">
@@ -157,6 +178,7 @@ category: future
                     </div>
                 </div>
                 </div>
+                <footer id="list-item-5"></footer>
                 <div class="container">
                     <h2> Teleporting Delivery </h2>
                       <div class="row">
