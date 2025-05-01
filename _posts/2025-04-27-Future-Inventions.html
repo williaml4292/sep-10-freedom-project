@@ -25,10 +25,22 @@ category: future
   }
   h2{
     text-align:center !important;
-    color:#1e9e54 !important;
+    animation:header2 4s infinite;
+  }
+  @keyframes header2{
+    0%{color:#0fbf00;}
+    33%{color:#0b9200;}
+    66%{color:#0a6902;}
+    100%{color:#0fbf00;}
+  }
+  @keyframes header1 {
+    0%{color:#1251e1;}
+    33%{color:#1a4ec4;}
+    66%{color:#1b439d;}
+    100%{color:#1251e1;}
   }
   h1{
-    color:#291e9e !important;
+    animation:header1 4s infinite;
     text-align:center !important;
   }
   @media (min-width:767px) and (max-width:991px){
