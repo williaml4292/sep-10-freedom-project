@@ -10,6 +10,19 @@ category: credits
         display: block;
         margin: 0 auto;
     }
+    @media (max-width:991px) and (min-width:767px){
+        img {
+            width:15vw !important;
+        }
+        .card-left{
+            display:block;
+            text-align:left;
+            }
+        .card-right{
+            display:block;
+            text-align:right;
+        }
+    }
 </style>
 <head>
     <meta charset="utf-8">
@@ -32,19 +45,35 @@ category: credits
         </li>
     </ul>
     </div>
+    <hr>
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img src="{{ site.baseurl }}/images/business-and-finance-vector-icon.jpg" alt="Home Page Image">
-                <a href="https://freerangestock.com/sample/118337/business-and-finance-vector-icon.jpg"> https://freerangestock.com/sample/118337/business-and-finance-vector-icon.jpg</a>
+                <div class="card card-left" style="width: 18rem;">
+                    <img src="{{ site.baseurl }}/images/business-and-finance-vector-icon.jpg" class="card-img-top" alt="Home Page Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Home Page Image</h5>
+                      <a href="https://freerangestock.com/sample/118337/business-and-finance-vector-icon.jpg"> https://freerangestock.com/sample/118337/business-and-finance-vector-icon.jpg</a>
+                    </div>
+                  </div>
             </div>
             <div class="col-md-4">
-                <img src="{{ site.baseurl }}/images/UPS.jpg" alt="UPS">
-                <a href="https://freerangestock.com/sample/118337/business-and-finance-vector-icon.jpg"> https://freerangestock.com/sample/118337/business-and-finance-vector-icon.jpg</a>
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ site.baseurl }}/images/UPS.jpg" class="card-img-top" alt="UPS Image">
+                    <div class="card-body">
+                      <h5 class="card-title"> UPS Image </h5>
+                      <a href="https://freerangestock.com/sample/118337/business-and-finance-vector-icon.jpg"> https://freerangestock.com/sample/118337/business-and-finance-vector-icon.jpg</a>
+                    </div>
+                  </div>
             </div>
             <div class="col-md-4">
-                <img src="{{ site.baseurl }}/images/Teleportation.png" alt="Teleportation">
-                <a href="https://openclipart.org/image/800px/268642"> https://openclipart.org/image/800px/268642</a>
+                <div class="card card-right" style="width: 18rem;">
+                    <img src="{{ site.baseurl }}/images/Teleportation.png" class="card-img-top" alt="Teleporation">
+                    <div class="card-body">
+                      <h5 class="card-title">Teleportation Image</h5>
+                      <a href="https://openclipart.org/image/800px/268642"> https://openclipart.org/image/800px/268642</a>
+                    </div>
+                  </div>
             </div>
         </div>
     </div>
