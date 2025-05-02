@@ -2,6 +2,9 @@
 category: tools
 ---
 <style>
+  *{
+    x-index:0;
+  }
    body{
    background-image: radial-gradient(circle at 90% 80%, transparent, white);
    animation-iteration-count: infinite;
@@ -36,7 +39,7 @@ category: tools
       margin-bottom:5vw !important;
     }
     img{
-      width:260px !important;
+      width:260px!important;
     }
    }
    img{
@@ -96,9 +99,23 @@ category: tools
     .scrollspy{
       margin-top:20vw;
       position:fixed;
+      z-index:0;
     }
     .width-scroll{
       width:15vw !important;
+    }
+    @media (min-width:590px) and (max-width:766px){
+      img{
+        width:35vw !important;
+      }
+    }
+    @media (max-width:590px){
+      img {
+        width:55vw !important;
+      }
+    }
+    .accordian-item{
+      z-index:1;
     }
 </style>
 <head>

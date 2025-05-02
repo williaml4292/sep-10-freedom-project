@@ -2,12 +2,16 @@
 category: future
 ---
 <style>
+  *{
+    z-index:0;
+  }
      .scrollspy{
       margin-top:20vw;
       position:fixed;
+      z-index:0;
     }
     .width-scroll{
-      width:15vw !important;
+      width:9vw !important;
     }
      body{
    background-image: radial-gradient(circle at 90% 80%, transparent, white);
@@ -35,10 +39,10 @@ category: future
     animation:header2 4s infinite;
   }
   @keyframes header2{
-    0%{color:#0fbf00;}
-    33%{color:#0b9200;}
-    66%{color:#0a6902;}
-    100%{color:#0fbf00;}
+    0%{color:#cf06a1;}
+    33%{color:#971179;}
+    66%{color:#571247;}
+    100%{color:#cf06a1;}
   }
   @keyframes header1 {
     0%{color:#1251e1;}
@@ -62,6 +66,47 @@ category: future
       margin: 0 auto;
     }
   }
+  @media(max-width:666px){
+    .accordion-item{
+      width:80% !important;
+      margin-left:15vw !important;
+    }
+  }
+  @media (min-width:645px) and (max-width:666px){
+    .list-group-item {
+      width:25vw !important;
+      display:block;
+    }
+  }
+  @media (max-width:645px){
+    .list-group-item {
+      width:20vw !important;
+      display:block;
+    }
+  }
+  @media (max-width:675px){
+    h1{
+      margin-left:18vw;
+    }
+  }
+  @media (min-width:768px) and (max-width:967px){
+    h1{
+      margin-left:10vw;
+    }
+  }
+  .accordian-item{
+      z-index:1;
+    }
+    @media (max-width:1130px) and (min-width:1100px) {
+      .width-scroll{
+        width:8vw !important;
+      }
+    }
+    @media (max-width:1100px){
+      .width-scroll{
+        .with-scroll:5vw !important;
+      }
+    }
 </style>
 <head>
     <meta charset="utf-8">
@@ -88,8 +133,8 @@ category: future
     <footer id="list-item-2"></footer>
     <div class="container">
         <h2> The Financial Phone </h2>
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
+        <div class="accordion ms-1" id="accordionExample">
+            <div class="accordion-item position-relative">
               <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#C1" aria-expanded="true" aria-controls="C1">
                  Properties:
@@ -120,7 +165,7 @@ category: future
         <div class="container">
             <h2> DNA Modification </h2>
             <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
+                <div class="accordion-item position-relative">
                   <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#C2" aria-expanded="true" aria-controls="C2">
                       Properties:
@@ -148,7 +193,7 @@ category: future
             <div class="container">
                 <h2> The Limiter Drone </h2>
                 <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
+                    <div class="accordion-item position-relative">
                       <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#C3" aria-expanded="true" aria-controls="C3">
                           Properties:
@@ -184,7 +229,7 @@ category: future
                       <div class="row">
                         <div class="col-md-6">
                             <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
+                                <div class="accordion-item position-relative">
                                   <h2 class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#C4" aria-expanded="false" aria-controls="C4">
                                       Properties:
