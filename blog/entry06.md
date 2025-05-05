@@ -1,7 +1,30 @@
 # Entry 6
-##### X/X/XX
+##### 5/5/25
 
-Text
+### Freedom Project Minimal Viable Project (MVP)
+Before we even started to make our **MVP**, we made a bunch of [wireframes](https://wireframe.cc/) for _both mobile and desktop devices_.  
+After we finished making them and got a _perfect_ score, we would then go on to making a [plan](https://github.com/williaml4292/sep-10-freedom-project/blob/main/prep/plan.md).  
+Afterwards, we would enable **Github Pages**.  
+Finally, we would start to add our content to the website and applying CSS.  
+However, as I was using [Jekyll](https://jekyllrb.com/), I had some issues with something I never tried before: using Jekyll in a subdirectory.  
+I tried to use the normal way shown in [this site](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll), but **it didn't work**, so I **made another branch** instead.  
+I ended up having to make a **gh-pages** branch in order for me to use Jekyll.  
+This was made by using these commands:  
+```bash
+git checkout --orphan gh-pages
+git rm -rf .
+jekyll new index
+cd index
+mv (all-files) ..
+cd ..
+rm -rf index
+git add .
+git commit -m "new jekyll site"
+git push -u origin gh-pages
+```
+The _first two commands_ **make the branch, gh-pages, and deletes all folders and files in the branch**, while the _last command_ **pushes everything and sets the push destination to gh-pages**. The other commands are for ***making the jekyll site**, however I had to **move** _all the files out of the index folder_ in order for **gh-pages** to work properly.  
+
+
 
 [Previous](entry05.md) | [Next](entry07.md)
 
