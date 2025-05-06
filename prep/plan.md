@@ -61,7 +61,7 @@
 | Rain Song  | I like the side nav-bar and the color changing background | Consider adding a fixed nav-bar; for better navigation.
 | Tina | I like how both the title and the background changes color  |Have you considered adding images as most of the website is full of words. 
 | Alberto  | I like your usage of multiple navbars in your webpages  | As much as I like your usage of vabriant colors, it can be a little distracting being with how it changes in the background.(Not all webpages have this issue but take a look at your Overview, maybe change your font color on your title "Finance")
-|   |   |
+| Damaris  | I like the sidebar that navigates you to each section in your website, less crowded with the accordions, the colors give it a unique look. | Try adding in some fonts (mabey like 1 or 2 depends on what you decide to add it onto) and images to your website. 
 |   |   |
 |   |   |
 
