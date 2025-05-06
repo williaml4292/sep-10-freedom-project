@@ -47,7 +47,11 @@
 
 * Experiment with fonts.
 
-
+Revision//Beyond MVP v2
+* Fixed navbar on the files that don't have internal links.
+* Change the animation on the title (it was originally supposed to change at the same time as the background but the animation duration was different, so sometimes, it made it so that you couldn't see the title that well.)
+* Fonts!!!
+* Perfect positioning afterwards (I don't want to change the layouts with the beyond MVP images)
 
 
 
