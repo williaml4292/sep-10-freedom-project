@@ -36,6 +36,11 @@ However, I managed to figure it out after coming across [this post](https://stac
 * When trying to figure out a problem that you can't solve, just **search** it up on _google_ and find a post where **others have already asked the same question**.  
 * When setting up **gh-pages**, even if you do `git rm -rf .`and delete everything, as long as you are **pushing to `gh-pages`**, you won't affect anything on the `main branch`.  
 ### Engineering Design Process (EDP)
+I am currently at **stage 6** of the EDP, which is _testing and evaluating the prototype_ that I've created. I've already finished the **MVP**, but I still wasn't given any feedback on my website as of the time of writing this. My **next step** after I get enough feedback would be to **perfect** my website using all the feedback given.
+### Skills
+
+
+
 [Previous](entry05.md) | [Next](entry07.md)
 
 [Home](../README.md)
