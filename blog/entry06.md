@@ -1,7 +1,7 @@
 # Entry 6
 ##### 5/5/25
 
-### Freedom Project Minimal Viable Project (MVP)
+### Freedom Project: Minimal Viable Project (MVP)
 Before we even started to make our **MVP**, we made a bunch of [wireframes](https://wireframe.cc/) for _both mobile and desktop devices_.  
 After we finished making them and got a _perfect_ score, we would then go on to making a [plan](https://github.com/williaml4292/sep-10-freedom-project/blob/main/prep/plan.md).  
 Afterwards, we would enable **Github Pages**.  
@@ -23,9 +23,19 @@ git commit -m "new jekyll site"
 git push -u origin gh-pages
 ```
 The _first two commands_ **make the branch, gh-pages, and deletes all folders and files in the branch**, while the _last command_ **pushes everything and sets the push destination to gh-pages**. The other commands are for ***making the jekyll site**, however I had to **move** _all the files out of the index folder_ in order for **gh-pages** to work properly.  
-
-
-
+What it looks like:  
+![gh-pages](../images/gh-pages.png)  
+After setting up **gh-pages**, I added the _content_ and the _colors_, including a **animated** `linear-gradient` that I found out could be made using **radical** linear-gradients.  
+What my index looks like:  
+![index](../images/index.png)  
+#### Other challenges when making my MVP:
+Other than setting up **gh-pages** being a problem, I also had problems figuring out how to make a **animated** `linear-gradient`.  
+This is the case because when you use animation, you are _**unable** to add_ linear-gradients to the `@keyframes`.  
+However, I managed to figure it out after coming across [this post](https://stackoverflow.com/questions/56409340/keyframes-gradient-background-is-not-animated).  
+#### Some takeaways:
+* When trying to figure out a problem that you can't solve, just **search** it up on _google_ and find a post where **others have already asked the same question**.  
+* When setting up **gh-pages**, even if you do `git rm -rf .`and delete everything, as long as you are **pushing to `gh-pages`**, you won't affect anything on the `main branch`.  
+### Engineering Design Process (EDP)
 [Previous](entry05.md) | [Next](entry07.md)
 
 [Home](../README.md)
