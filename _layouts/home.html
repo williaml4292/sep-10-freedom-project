@@ -2,11 +2,38 @@
 
 ---
 <style>
+  nav{
+    display:block;
+    position:fixed !important;
+    width:100vw;
+  }
   h1{
     text-align:center;
-    padding:4%;
     font-size:80px;
     animation:header 3s infinite;
+    padding-top:7vw;
+  }
+  @media (max-width:915px) and (min-width:768px){
+    h1{
+      padding-top:9vw !important;
+    }
+  }
+  @media (max-width:792px) and (min-width:600px){
+    h1{
+      padding-top:11vw !important;
+    }
+  }
+  @media (max-width:600px) and (min-width:400px){
+    h1{
+      padding-top:14vw !important;
+      margin-bottom:4vw !important;
+    }
+  }
+  @media (max-width:400px){
+    h1{
+      padding-top:19vw !important;
+      margin-bottom:6vw !important;
+    }
   }
   body{
    background-image: radial-gradient(circle at 90% 80%, transparent, white);
