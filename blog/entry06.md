@@ -38,7 +38,23 @@ However, I managed to figure it out after coming across [this post](https://stac
 ### Engineering Design Process (EDP)
 I am currently at **stage 6** of the EDP, which is _testing and evaluating the prototype_ that I've created. I've already finished the **MVP**, but I still wasn't given any feedback on my website as of the time of writing this. My **next step** after I get enough feedback would be to **perfect** my website using all the feedback given.
 ### Skills
-
+Two skills that I've developed since the previous entry are **debugging** and **time management**.
+#### Debugging
+When working on my _Freedom Project_ and adding accordions to my files, I kept having to _copy and paste_ sections of the accordion, which caused me frequently _mess up my_ `divs` whenever I had to **add a line of code between them**, such as a `img` or a `h2`.  
+This is a significant issue because whenever my `divs` were messed up, my **color scheme was ruined** due to elements suddenly appearing **outside** of the `background-color` when they're not supposed to.  
+Sometimes, my content ended up looking werid whenever I _previewed_ it.  
+For example, if my `divs` were wrong, whenever I used the **bootstrap grid system**, my `columns` would sometimes be **outside** of the `row` and the grid would simply not work. This would make a ton of extra **white space**, which didn't look good.  
+In order to debug this, I pulled [the bootstrap docs](https://getbootstrap.com/docs/5.3/components/accordion/) back up and looked at all the `divs` that the accordions used.  
+Afterwards, I _experimented_ with the placement of the `divs` in my code until the **alignment started working** again.
+#### Time Management
+Since we had a very **limited** time for making the **MVP**, I had to decide on the tasks that were more **important** for me to do.  
+Should I **make a completely new navbar** and _customize it from scratch_ to fit the theme of my website?  
+Or should I use a **basic** `navbar`?  
+Or should I use a `navbar` that I previously made in another repository?  
+I chose to _copy and paste_ the `navbar` that I had from a separate repository that I used to **test** _bootstrap components and Jekyll_.  
+Afterwards, I **deleted** the `background-color` that the `navbar` had, _changed the color of the text to white_, and _changed the_ **margins** _and the_ **links**.  
+After that, _I focused completely_ on **adding all my content** to the website.  
+I ended up after around **3 days of worktime left**, without counting the weekend, which let me _spend the remainder of the time on `media queries`_ to add better **responsiveness** to the website.  
 
 
 [Previous](entry05.md) | [Next](entry07.md)
