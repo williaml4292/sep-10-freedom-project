@@ -5,7 +5,7 @@
 Before we even started to make our **MVP**, we made a bunch of [wireframes](https://wireframe.cc/) for _both mobile and desktop devices_.  
 After we finished making them and got a _perfect_ score, we would then go on to making a [plan](https://github.com/williaml4292/sep-10-freedom-project/blob/main/prep/plan.md).  
 Afterwards, we would enable **Github Pages**.  
-Finally, we would start to add our content to the website and applying CSS.  
+Finally, we would start to add our content to the website and apply CSS.  
 However, as I was using [Jekyll](https://jekyllrb.com/), I had some issues with something I never tried before: using Jekyll in a subdirectory.  
 I tried to use the normal way shown in [this site](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll), but **it didn't work**, so I **made another branch** instead.  
 I ended up having to make a **gh-pages** branch in order for me to use Jekyll.  
@@ -42,7 +42,7 @@ Two skills that I've developed since the previous entry are **debugging** and **
 #### Debugging
 When working on my _Freedom Project_ and adding accordions to my files, I kept having to _copy and paste_ sections of the accordion, which caused me frequently _mess up my_ `divs` whenever I had to **add a line of code between them**, such as a `img` or a `h2`.  
 This is a significant issue because whenever my `divs` were messed up, my **color scheme was ruined** due to elements suddenly appearing **outside** of the `background-color` when they're not supposed to.  
-Sometimes, my content ended up looking werid whenever I _previewed_ it.  
+Sometimes, my content ended up looking weird whenever I _previewed_ it.  
 For example, if my `divs` were wrong, whenever I used the **bootstrap grid system**, my `columns` would sometimes be **outside** of the `row` and the grid would simply not work. This would make a ton of extra **white space**, which didn't look good.  
 In order to debug this, I pulled [the bootstrap docs](https://getbootstrap.com/docs/5.3/components/accordion/) back up and looked at all the `divs` that the accordions used.  
 Afterwards, I _experimented_ with the placement of the `divs` in my code until the **alignment started working** again.
@@ -56,9 +56,12 @@ Since we had a very **limited** time for making the **MVP**, I had to decide on 
 I chose to _copy and paste_ the `navbar` that I had from a separate repository that I used to **test** _bootstrap components and Jekyll_.  
 Afterwards, I **deleted** the `background-color` that the `navbar` had, _changed the color of the text to white_, and _changed the_ **margins** _and the_ **links**.  
 After that, _I focused completely_ on **adding all my content** to the website.  
-I ended up after around **3 days of worktime left**, without counting the weekend, which let me _spend the remainder of the time on `media queries`_ to add better **responsiveness** to the website.  
+I ended up after around **3 days of work time left**, without counting the weekend, which let me _spend the remainder of the time on `media queries`_ to add better **responsiveness** to the website.  
 
 
 [Previous](entry05.md) | [Next](entry07.md)
 
 [Home](../README.md)
+
+
+
