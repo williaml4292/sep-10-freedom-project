@@ -56,7 +56,7 @@ Since we had a very **limited** time for making the **MVP**, I had to decide on 
 I chose to _copy and paste_ the `navbar` that I had from a separate repository that I used to **test** _bootstrap components and Jekyll_.  
 Afterwards, I **deleted** the `background-color` that the `navbar` had, _changed the color of the text to white_, and _changed the_ **margins** _and the_ **links**.  
 After that, _I focused completely_ on **adding all my content** to the website.  
-I ended up after around **3 days of work time left**, without counting the weekend, which let me _spend the remainder of the time on `media queries`_ to add better **responsiveness** to the website.  
+I ended up having around **3 days of work time left**, without counting the weekend, which let me _spend the remainder of the time on `media queries`_ to add better **responsiveness** to the website.  
 
 
 [Previous](entry05.md) | [Next](entry07.md)
