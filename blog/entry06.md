@@ -22,7 +22,7 @@ git add .
 git commit -m "new jekyll site"
 git push -u origin gh-pages
 ```
-The _first two commands_ **make the branch, gh-pages, and deletes all folders and files in the branch**, while the _last command_ **pushes everything and sets the push destination to gh-pages**. The other commands are for ***making the jekyll site**, however I had to **move** _all the files out of the index folder_ in order for **gh-pages** to work properly.  
+The _first two commands_ **make the branch, gh-pages, and deletes all folders and files in the branch**, while the _last command_ **pushes everything and sets the push destination to gh-pages**. The other commands are for **making the jekyll site**, however I had to **move** _all the files out of the index folder_ in order for **gh-pages** to work properly.  
 What it looks like:  
 ![gh-pages](../images/gh-pages.png)  
 After setting up **gh-pages**, I added the _content_ and the _colors_, including a **animated** `linear-gradient` that I found out could be made using **radical** linear-gradients.  
