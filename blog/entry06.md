@@ -48,9 +48,11 @@ In order to debug this, I pulled [the bootstrap docs](https://getbootstrap.com/d
 Afterwards, I _experimented_ with the placement of the `divs` in my code until the **alignment started working** again.
 #### Time Management
 Since we had a very **limited** time for making the **MVP**, I had to decide on the tasks that were more **important** for me to do.  
-Should I **make a completely new navbar** and _customize it from scratch_ to fit the theme of my website?  
-Or should I use a **basic** `navbar`?  
-Or should I use a `navbar` that I previously made in another repository?  
+
+> Should I **make a completely new navbar** and _customize it from scratch_ to fit the theme of my website?  
+> Or should I use a **basic** `navbar`?  
+> Or should I use a `navbar` that I previously made in another repository?
+
 I chose to _copy and paste_ the `navbar` that I had from a separate repository that I used to **test** _bootstrap components and Jekyll_.  
 Afterwards, I **deleted** the `background-color` that the `navbar` had, _changed the color of the text to white_, and _changed the_ **margins** _and the_ **links**.  
 After that, _I focused completely_ on **adding all my content** to the website.  
