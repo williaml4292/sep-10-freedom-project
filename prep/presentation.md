@@ -7,6 +7,7 @@
 * Responsiveness.
 * Tap on navbars (and internal links if needed)
 * Tap on accordions to show information.
+* Go through all the files
 
 ## Process
 * Before // Mention learning HTML/CSS/GIT commands
