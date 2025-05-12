@@ -1,16 +1,23 @@
 # Presentation Plan
 
 ## Hook
-* 
+* "Image if you returned home one day only to find out that all of your money vanished and all that's left in your bank account are a bunch of toys."
 
 ## Product
-* 
+* Responsiveness.
+* Tap on navbars (and internal links if needed)
+* Tap on accordions to show information.
 
 ## Process
-* 
+* Before // Mention learning HTML/CSS/GIT commands
+* During // Wireframes
+* Code snipplet: Radical Linear Gradient
 
 ## Conclusion
-* 
+* Takeaways
+  * Look online for people who have posted the same question in the past.
+  * Don't be afraid to try things out (Didn't know how to use accordions prior to starting to code this website)
+* "Thank You"
 
 <!-- EXAMPLE
 
