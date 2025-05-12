@@ -11,8 +11,8 @@
 
 ## Process
 * Before // Mention learning HTML/CSS/GIT commands
-* During // Wireframes
-* Code snipplet: Radical Linear Gradient
+* During // Wireframes / gh-pages / mention adding all content
+* Code snipplet: Radical Linear Gradient with the keyframes
 
 ## Conclusion
 * Takeaways
