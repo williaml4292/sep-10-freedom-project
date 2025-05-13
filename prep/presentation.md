@@ -16,7 +16,7 @@
 
 ## Conclusion
 * Takeaways
-  * Look online for people who have posted the same question in the past. 
+  * Look online for people who have posted the same question in the past. (https://stackoverflow.com/questions/56409340/keyframes-gradient-background-is-not-animated)
   * Don't be afraid to try things out (Didn't know how to use accordions prior to starting to code this website)
 * "Thank You"
 
