@@ -1,7 +1,7 @@
 # Presentation Plan
 
 ## Hook
-* "Image if you returned home one day only to find out that all of your money vanished and all that's left in your bank account are a bunch of toys."
+* "Image if you returned home one day only to find out that all of your money vanished and all that's left of your bank account are a bunch of toys. I made a website that could help you with this issue."
 
 ## Product
 * Responsiveness.
@@ -16,7 +16,7 @@
 
 ## Conclusion
 * Takeaways
-  * Look online for people who have posted the same question in the past.
+  * Look online for people who have posted the same question in the past. 
   * Don't be afraid to try things out (Didn't know how to use accordions prior to starting to code this website)
 * "Thank You"
 
