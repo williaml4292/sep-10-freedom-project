@@ -19,6 +19,7 @@ A few takeaways that I have from giving my _[in-class presentation](https://docs
 * Do **not** put _too many links_ in your presentation; **one** link for your _[actual website](https://williaml4292.github.io/sep-10-freedom-project/)_ is **enough**.
   * During my presentation, due to the sheer amount of links I had, _slideshow_ was only on for about **40%** of the time.
 
+#### EDP 
 [Previous](entry06.md) | [Next](entry08.md)
 
 [Home](../README.md)
