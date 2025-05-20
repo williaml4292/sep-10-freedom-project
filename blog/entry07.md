@@ -1,6 +1,6 @@
 # Entry 7
 ##### 5/20/25
----
+
 #### Content
 ##### Expo Elevator Pitch
 A few takeaways that I have from giving my _Expo elevator pitch_ are:  
