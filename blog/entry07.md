@@ -20,6 +20,10 @@ A few takeaways that I have from giving my _[in-class presentation](https://docs
   * During my presentation, due to the sheer amount of links I had, _slideshow_ was only on for about **40%** of the time.
 
 #### EDP 
+I am currently in the **8th** stage of the _Engineering Design Process_, which is **communicating** the **results** with others. I've already _presented in class_, but I still haven't presented my **Expo elevator pitch**, so that would be the next step... after **improving** my presentation with the feedback given. Therefore, my next step of the _Engineering Design Process_ is to **improve my presentation**.
+
+#### Skills
+
 [Previous](entry06.md) | [Next](entry08.md)
 
 [Home](../README.md)
