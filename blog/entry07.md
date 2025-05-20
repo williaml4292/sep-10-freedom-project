@@ -23,7 +23,7 @@ A few takeaways that I have from giving my _[in-class presentation](https://docs
 I am currently in the **8th** stage of the _Engineering Design Process_, which is **communicating** the **results** with others. I've already _presented in class_, but I still haven't presented my **Expo elevator pitch**, so that would be the next step... after **improving** my presentation with the feedback given. Therefore, my next step of the _Engineering Design Process_ is to **improve my presentation**.
 
 #### Skills
-Two skills that I've developed since the previous entry are **communication** and **consideration**.  
+Two skills that I've developed since the previous entry are **communication** and **insert skill here**.  
 ##### Communcation 
 Given that we were doing **presentations** we must learn how to _communicate and articulate_ our ideas with others.  
 During class, Mr. Mueller spent around **30 minutes** in total giving us **tips** about what we **should** do during presentations.  
@@ -40,7 +40,7 @@ In our presentation, we had a **microphone**, so we didn't need to speak too lou
 
 When making my presentation, I made sure that you could _read the text from the **sidebar**_, even if the _amount of content_ on each _individual slide was very little_.  
 I also made sure not to put a **wall of text** on each slide, instead, I tried to explain it **audibly** so as to not bore my classmates to death.
-##### Consideration
+##### skill 2
 
 
 [Previous](entry06.md) | [Next](entry08.md)
