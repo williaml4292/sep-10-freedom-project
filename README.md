@@ -21,9 +21,8 @@ I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **J
 
 
 ## Blog
-Below you will find my blog about how I made my project.
+Below you will find my blog about how I made my project, which includes: **picking my topic**, learning about **software** and **hardware** _already in this field_, **the tool I learned**, how I made my **Minimal Viable Project**, as well as my **Expo elvator pitch** and **in-class presentation**.
 
-* [Entry 1](blog/entry01.md)
 * [Entry 2](blog/entry02.md)
 * [Entry 3](blog/entry03.md)
 * [Entry 4](blog/entry04.md)
