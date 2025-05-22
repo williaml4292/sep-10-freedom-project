@@ -9,10 +9,9 @@ For my project, I chose the topic of **Finance**.
 I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **Jekyll** in order to help me make my website.
 
 ## Links
+[Product](https://williaml4292.github.io/sep-10-freedom-project/)
 
-[Product]()
-
-[Presentation]()
+[Presentation](https://docs.google.com/presentation/d/1Wy3WiXNkB_8rEn6tiTTZ2lHe9es2cUCG_L_MTVyOZwY/edit?usp=sharing)
 
 ## Implications
 ##### PROS
