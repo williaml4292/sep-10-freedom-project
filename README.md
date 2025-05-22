@@ -28,12 +28,19 @@ I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **J
 * Most of the inventions are going to be **expensive**.
   
 ## Blog
-Below you will find my blog about how I made my project, which includes: **picking my topic**, learning about **software** and **hardware** _already in this field_, **the tool I learned**, how I made my **Minimal Viable Project**, as well as my **Expo elvator pitch** and **in-class presentation**.
+Below you will find my blog about how I made my project, which includes: **picking my topic**, learning about **software** and **hardware** _already in this field_, _brainstorming potential_ **future inventions**, **the tool I learned**, how I made my **Minimal Viable Project**, as well as my **Expo elvator pitch** and **in-class presentation**.
 
 * [Entry 1](blog/entry01.md)
+  * Picking a Topic
 * [Entry 2](blog/entry02.md)
+  * Finding Software & Hardware
 * [Entry 3](blog/entry03.md)
+  * Future Inventions
 * [Entry 4](blog/entry04.md)
+  * Freedom Project Tool
 * [Entry 5](blog/entry05.md)
+  * Freedom Project Tool | Part 2
 * [Entry 6](blog/entry06.md)
+  * Minimal Viable Project
 * [Entry 7](blog/entry07.md)
+  * Presentations
