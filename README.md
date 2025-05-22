@@ -16,7 +16,7 @@ I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **J
 ## Implications
 ##### PROS
 * Parents wouldn't be forced to **supervise** their children whenever they want to shop.
-  * Children would feel more _trusted_, leading to _better relationships_ with their parents.
+  * Children would feel more _trusted_, leading to _better **relationships**_ with their parents.
 * People would overall spend their money more **efficiently**.
 * People would be _more aware_ of how to **manage** their money.
 * More people would use **budgetting apps** so they wouldn't waste their money on unnecessary things.
