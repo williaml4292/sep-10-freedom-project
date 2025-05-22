@@ -43,6 +43,6 @@ I also made sure not to put a **wall of text** on each slide, instead, I tried t
 ##### skill 2
 
 
-[Previous](entry06.md) | [Next](entry08.md)
+[Previous](entry06.md)
 
 [Home](../README.md)
