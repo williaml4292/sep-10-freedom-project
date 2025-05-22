@@ -17,15 +17,15 @@ I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **J
 ##### PROS
 * Parents wouldn't be forced to **supervise** their children whenever they want to shop.
   * Children would feel more _trusted_, leading to _better relationships_ with their parents.
-* People would overall, spend their money **efficiently**.
+* People would overall spend their money more **efficiently**.
 * People would be _more aware_ of how to **manage** their money.
 * More people would use **budgetting apps** so they wouldn't waste their money on unnecessary things.
-* If delivery packages were to be directly teleported, there would practically be no way for them to be stolen.
+* If delivery packages were to be directly _teleported_, there would practically be no way for them to be stolen.
 ##### CONS
 * Might have to wait for a **very long time** for the inventions to actually come out.
 * All the tools mentioned are on social media, so more people would be _staring at their phones_ whenever they go out to shop.
   * Could easily lead to *traffic accidents* if people stare at the phones while walking across the street.
-* Most of the inventions are going to be **expensive**.
+* Most of the future inventions are going to be **expensive**, so people who aren't well off wouldn't be able to _afford_ them.
   
 ## Blog
 Below you will find my blog about how I made my project, which includes: **picking my topic**, learning about **software** and **hardware** _already in this field_, _brainstorming potential_ **future inventions**, **the tool I learned**, how I made my **Minimal Viable Project**, as well as my **Expo elvator pitch** and **in-class presentation**.
