@@ -24,8 +24,8 @@ I am currently in the **8th** stage of the _Engineering Design Process_, which i
 
 #### Skills
 Two skills that I've developed since the previous entry are **communication** and **insert skill here**.  
-##### Communcation 
-Given that we were doing **presentations** we must learn how to _communicate and articulate_ our ideas with others.  
+##### Communication 
+Given that we were doing **presentations**, we must learn how to _communicate and articulate_ our ideas with others.  
 During class, Mr. Mueller spent around **30 minutes** in total giving us **tips** about what we **should** do during presentations.  
 These tips include:  
 * Talk **loudly** so that everyone can hear you.
@@ -46,3 +46,6 @@ I also made sure not to put a **wall of text** on each slide, instead, I tried t
 [Previous](entry06.md)
 
 [Home](../README.md)
+
+
+
