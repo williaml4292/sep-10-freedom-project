@@ -3,13 +3,12 @@
 
 #### Content
 ##### Expo Elevator Pitch
-A few takeaways that I have from giving my _Expo elevator pitch_ are:  
-*
- * 
-*
- * 
-*
- * 
+A few takeaways that I have from giving my _[Expo elevator pitch](https://docs.google.com/document/d/1YZMVr6-VMmNUoLb1kXPjf5IWUHTWGV95u97PkYFMHSk/edit?usp=sharing)_ are:  
+* Make **adjustments** to your script depending on the situation.
+  * If the recipient of the presentation _asks a question during the presentation_, **answer** the question and say the rest **depending** on the questions asked.
+* Try not to be _too nervous_ when presenting to the judges.
+  * If you're nervous, you tend to _lower_ your voice or _forget_ some lines.
+* Always **set up** all the links needed for your presentation _beforehand_.
 ##### In-class Presentation
 A few takeaways that I have from giving my _[in-class presentation](https://docs.google.com/presentation/d/1Wy3WiXNkB_8rEn6tiTTZ2lHe9es2cUCG_L_MTVyOZwY/edit?usp=sharing)_ are:  
 * Try **not** to **stop talking**.
