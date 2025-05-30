@@ -42,13 +42,14 @@ I also made sure not to put a **wall of text** on each slide, instead, I tried t
 ##### Time Management
 On Thursday, we started to present our _Expo Elevator Pitches_ in the cafeteria, but I realized that my script was **too long**; it exceeded the time limit of _60 seconds_ by _**20** seconds_.  
 To solve this issue, I decided to directly **skip** the _lines about the code snipplet_ instead of going through my website _faster_ or _decreasing_ the time on each section.  
-I did this because I realized that there **isn't** a need for the code snipplet to be directly **in my presentation**; it could be used to answer questions and besides, one of my takeaways could also be briefly explained more _in depth_ for the same result.  
-Furthermore, all the other sections would **matter much more** than the code snipplet, given that we were being graded on the _actual presentations_ themselves, _not_ the process.  
-This led me to **prioritize** the other parts of my script over the code snipplet.
+I did this because I realized that there **isn't** a need for the code snippet to be directly **in my presentation**; it could be used to answer questions and besides, one of my takeaways could also be briefly explained more _in depth_ for the same result.  
+Furthermore, all the other sections would **matter much more** than the code snippet, given that we were being graded on the _actual presentations_ themselves, _not_ the process.  
+This led me to **prioritize** the other parts of my script over the code snippet.
 
 [Previous](entry06.md)
 
 [Home](../README.md)
+
 
 
 
