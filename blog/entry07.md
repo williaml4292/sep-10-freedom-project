@@ -19,7 +19,7 @@ A few takeaways that I have from giving my _[in-class presentation](https://docs
   * During my presentation, due to the sheer amount of links I had, _slideshow_ was only on for about **40%** of the time.
 
 #### EDP 
-I am currently in the **8th** stage of the _Engineering Design Process_, which is **communicating** the **results** with others. I've already presented both the **in-class presentation** and the **Expo Elevator Pitch**, but I still haven't been graded yet. My next step of the _Engineering Design Process_ is to **improve** my presentation based on the feedback given.
+I am currently in the **8th** stage of the _Engineering Design Process_, which is **communicating** the **results** with others. I've already presented both the **in-class presentation** and the **Expo Elevator Pitch**. My next step of the _Engineering Design Process_ is, if I have time, to **improve** my presentation based on the feedback given.
 
 #### Skills
 Two skills that I've developed since the previous entry are **communication** and **time management**.  
