@@ -6,7 +6,7 @@ I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering P
 
 For my project, I chose the topic of **Finance**. 
 
-I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **Jekyll** in order to help me make my website about helping others learn how to manage their money.
+In order to make my website about making people _more aware of how to manage their money_, I used HTML, CSS, and Bootstrap. I also chose to independently study **Jekyll**.
 
 ## Links
 [Product](https://williaml4292.github.io/sep-10-freedom-project/)
